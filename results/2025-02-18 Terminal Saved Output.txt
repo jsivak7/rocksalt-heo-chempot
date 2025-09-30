@@ -1,0 +1,450 @@
+(pytheos) jtsivak@Macbook scripts % python 01_extract_chempot_from_MP.py
+Retrieving ThermoDoc documents: 100%|██████████████████████████████████████████████████████████████| 58/58 [00:00<00:00, 603646.73it/s]
+/Users/jtsivak/miniconda3/envs/pytheos/lib/python3.12/site-packages/pymatgen/entries/compatibility.py:621: UserWarning: Failed to guess oxidation states for Entry mp-1245393-GGA (MgO2). Assigning anion correction to only the most electronegative atom.
+  adjustments: list[EnergyAdjustment] = self.get_adjustments(entry)
+/Users/jtsivak/miniconda3/envs/pytheos/lib/python3.12/site-packages/pymatgen/entries/mixing_scheme.py:183: UserWarning: r2SCAN entries do not form a complete PhaseDiagram.
+  mixing_state_data = self.get_mixing_state_data(entries_type_1 + entries_type_2)
+/Users/jtsivak/Projects/rocksalt-heo-chempot/scripts/01_extract_chempot_from_MP.py:51: UserWarning: WARNING! Discarding GGA entry mp-1102442-GGA for O12 because it was not found in the mixing state data. This can occur when there are duplicate structures. In such cases, only the lowest energy entry with that structure appears in the mixing state data.
+  corrected_entries = scheme.process_entries(entries)
+/Users/jtsivak/Projects/rocksalt-heo-chempot/scripts/01_extract_chempot_from_MP.py:51: UserWarning: WARNING! Discarding GGA entry mp-611836-GGA for O2 because it was not found in the mixing state data. This can occur when there are duplicate structures. In such cases, only the lowest energy entry with that structure appears in the mixing state data.
+  corrected_entries = scheme.process_entries(entries)
+/Users/jtsivak/Projects/rocksalt-heo-chempot/scripts/01_extract_chempot_from_MP.py:51: UserWarning: WARNING! Discarding GGA entry mp-1180050-GGA for O8 because it was not found in the mixing state data. This can occur when there are duplicate structures. In such cases, only the lowest energy entry with that structure appears in the mixing state data.
+  corrected_entries = scheme.process_entries(entries)
+/Users/jtsivak/Projects/rocksalt-heo-chempot/scripts/01_extract_chempot_from_MP.py:51: UserWarning: WARNING! Discarding GGA entry mp-1023923-GGA for O6 because it was not found in the mixing state data. This can occur when there are duplicate structures. In such cases, only the lowest energy entry with that structure appears in the mixing state data.
+  corrected_entries = scheme.process_entries(entries)
+/Users/jtsivak/Projects/rocksalt-heo-chempot/scripts/01_extract_chempot_from_MP.py:51: UserWarning: WARNING! Discarding GGA entry mp-1096803-GGA for Mg1 O2 because it was not found in the mixing state data. This can occur when there are duplicate structures. In such cases, only the lowest energy entry with that structure appears in the mixing state data.
+  corrected_entries = scheme.process_entries(entries)
+/Users/jtsivak/Projects/rocksalt-heo-chempot/scripts/01_extract_chempot_from_MP.py:51: UserWarning: WARNING! Discarding GGA entry mp-1065697-GGA for O1 because it was not found in the mixing state data. This can occur when there are duplicate structures. In such cases, only the lowest energy entry with that structure appears in the mixing state data.
+  corrected_entries = scheme.process_entries(entries)
+
+
+Mg-O chemical potential diagram
+MgO
+	[ 0.     -6.1068]
+	[-6.1068  0.    ]
+O2
+	[-50.   0.]
+	[-6.1068  0.    ]
+Mg
+	[  0. -50.]
+	[ 0.     -6.1068]
+
+stable oxygen range for MgO ->
+	min = -6.1068 eV
+	max = 0.0000 eV
+	distance = 6.1068 eV
+
+
+Retrieving ThermoDoc documents: 100%|█████████████████████████████████████████████████████████████| 96/96 [00:00<00:00, 4575604.36it/s]
+/Users/jtsivak/miniconda3/envs/pytheos/lib/python3.12/site-packages/pymatgen/entries/compatibility.py:621: UserWarning:
+
+Failed to guess oxidation states for Entry mp-1221594-GGA+U (MnO4). Assigning anion correction to only the most electronegative atom.
+
+/Users/jtsivak/miniconda3/envs/pytheos/lib/python3.12/site-packages/pymatgen/entries/compatibility.py:621: UserWarning:
+
+Failed to guess oxidation states for Entry mp-1222372-GGA+U (Mn20O43). Assigning anion correction to only the most electronegative atom.
+
+/Users/jtsivak/miniconda3/envs/pytheos/lib/python3.12/site-packages/pymatgen/entries/compatibility.py:621: UserWarning:
+
+Failed to guess oxidation states for Entry mp-849596-GGA+U (Mn21O40). Assigning anion correction to only the most electronegative atom.
+
+/Users/jtsivak/miniconda3/envs/pytheos/lib/python3.12/site-packages/pymatgen/entries/compatibility.py:621: UserWarning:
+
+Failed to guess oxidation states for Entry mp-766493-GGA+U (Mn21O40). Assigning anion correction to only the most electronegative atom.
+
+/Users/jtsivak/miniconda3/envs/pytheos/lib/python3.12/site-packages/pymatgen/entries/mixing_scheme.py:183: UserWarning:
+
+r2SCAN entries do not form a complete PhaseDiagram.
+
+/Users/jtsivak/Projects/rocksalt-heo-chempot/scripts/01_extract_chempot_from_MP.py:51: UserWarning:
+
+WARNING! Discarding GGA entry mp-1023923-GGA for O6 because it was not found in the mixing state data. This can occur when there are duplicate structures. In such cases, only the lowest energy entry with that structure appears in the mixing state data.
+
+/Users/jtsivak/Projects/rocksalt-heo-chempot/scripts/01_extract_chempot_from_MP.py:51: UserWarning:
+
+WARNING! Discarding GGA entry mp-1180050-GGA for O8 because it was not found in the mixing state data. This can occur when there are duplicate structures. In such cases, only the lowest energy entry with that structure appears in the mixing state data.
+
+/Users/jtsivak/Projects/rocksalt-heo-chempot/scripts/01_extract_chempot_from_MP.py:51: UserWarning:
+
+WARNING! Discarding GGA entry mp-1102442-GGA for O12 because it was not found in the mixing state data. This can occur when there are duplicate structures. In such cases, only the lowest energy entry with that structure appears in the mixing state data.
+
+/Users/jtsivak/Projects/rocksalt-heo-chempot/scripts/01_extract_chempot_from_MP.py:51: UserWarning:
+
+WARNING! Discarding GGA entry mp-1065697-GGA for O1 because it was not found in the mixing state data. This can occur when there are duplicate structures. In such cases, only the lowest energy entry with that structure appears in the mixing state data.
+
+/Users/jtsivak/Projects/rocksalt-heo-chempot/scripts/01_extract_chempot_from_MP.py:51: UserWarning:
+
+WARNING! Discarding GGA entry mp-611836-GGA for O2 because it was not found in the mixing state data. This can occur when there are duplicate structures. In such cases, only the lowest energy entry with that structure appears in the mixing state data.
+
+
+
+Mn-O chemical potential diagram
+MnO
+	[ 0.     -3.9584]
+	[-1.4807 -2.4777]
+MnO2
+	[-5.4175  0.    ]
+	[-3.8867 -0.7654]
+Mn2O3
+	[-2.7802 -1.5031]
+	[-3.8867 -0.7654]
+Mn3O4
+	[-1.4807 -2.4777]
+	[-2.7802 -1.5031]
+O2
+	[-50.   0.]
+	[-5.4175  0.    ]
+Mn
+	[  0. -50.]
+	[ 0.     -3.9584]
+
+stable oxygen range for MnO ->
+	min = -3.9584 eV
+	max = -2.4777 eV
+	distance = 1.4807 eV
+
+
+Retrieving ThermoDoc documents: 100%|██████████████████████████████████████████████████████████| 169/169 [00:00<00:00, 11075584.00it/s]
+/Users/jtsivak/miniconda3/envs/pytheos/lib/python3.12/site-packages/pymatgen/entries/compatibility.py:621: UserWarning:
+
+Failed to guess oxidation states for Entry mp-1354450-GGA+U (FeO2). Assigning anion correction to only the most electronegative atom.
+
+/Users/jtsivak/miniconda3/envs/pytheos/lib/python3.12/site-packages/pymatgen/entries/compatibility.py:621: UserWarning:
+
+Failed to guess oxidation states for Entry mp-863316-GGA+U (FeO3). Assigning anion correction to only the most electronegative atom.
+
+/Users/jtsivak/miniconda3/envs/pytheos/lib/python3.12/site-packages/pymatgen/entries/compatibility.py:621: UserWarning:
+
+Failed to guess oxidation states for Entry mp-530048-GGA+U (Fe21O32). Assigning anion correction to only the most electronegative atom.
+
+/Users/jtsivak/miniconda3/envs/pytheos/lib/python3.12/site-packages/pymatgen/entries/compatibility.py:621: UserWarning:
+
+Failed to guess oxidation states for Entry mp-1355579-GGA+U (FeO2). Assigning anion correction to only the most electronegative atom.
+
+/Users/jtsivak/miniconda3/envs/pytheos/lib/python3.12/site-packages/pymatgen/entries/compatibility.py:621: UserWarning:
+
+Failed to guess oxidation states for Entry mp-1225001-GGA+U (Fe5O8). Assigning anion correction to only the most electronegative atom.
+
+/Users/jtsivak/miniconda3/envs/pytheos/lib/python3.12/site-packages/pymatgen/entries/compatibility.py:621: UserWarning:
+
+Failed to guess oxidation states for Entry mp-1184320-GGA+U (Fe3O). Assigning anion correction to only the most electronegative atom.
+
+/Users/jtsivak/miniconda3/envs/pytheos/lib/python3.12/site-packages/pymatgen/entries/compatibility.py:621: UserWarning:
+
+Failed to guess oxidation states for Entry mp-510746-GGA+U (Fe5O8). Assigning anion correction to only the most electronegative atom.
+
+/Users/jtsivak/miniconda3/envs/pytheos/lib/python3.12/site-packages/pymatgen/entries/compatibility.py:621: UserWarning:
+
+Failed to guess oxidation states for Entry mp-1225007-GGA+U (Fe5O8). Assigning anion correction to only the most electronegative atom.
+
+/Users/jtsivak/miniconda3/envs/pytheos/lib/python3.12/site-packages/pymatgen/entries/compatibility.py:621: UserWarning:
+
+Failed to guess oxidation states for Entry mp-1181334-GGA+U (Fe4O13). Assigning anion correction to only the most electronegative atom.
+
+/Users/jtsivak/miniconda3/envs/pytheos/lib/python3.12/site-packages/pymatgen/entries/compatibility.py:621: UserWarning:
+
+Failed to guess oxidation states for Entry mp-1181411-GGA+U (Fe4O13). Assigning anion correction to only the most electronegative atom.
+
+/Users/jtsivak/miniconda3/envs/pytheos/lib/python3.12/site-packages/pymatgen/entries/compatibility.py:621: UserWarning:
+
+Failed to guess oxidation states for Entry mp-1395285-GGA+U (FeO2). Assigning anion correction to only the most electronegative atom.
+
+/Users/jtsivak/miniconda3/envs/pytheos/lib/python3.12/site-packages/pymatgen/entries/compatibility.py:621: UserWarning:
+
+Failed to guess oxidation states for Entry mp-1350825-GGA+U (FeO2). Assigning anion correction to only the most electronegative atom.
+
+/Users/jtsivak/miniconda3/envs/pytheos/lib/python3.12/site-packages/pymatgen/entries/compatibility.py:621: UserWarning:
+
+Failed to guess oxidation states for Entry mp-1355192-GGA+U (FeO2). Assigning anion correction to only the most electronegative atom.
+
+/Users/jtsivak/miniconda3/envs/pytheos/lib/python3.12/site-packages/pymatgen/entries/compatibility.py:621: UserWarning:
+
+Failed to guess oxidation states for Entry mp-1359196-GGA+U (FeO2). Assigning anion correction to only the most electronegative atom.
+
+/Users/jtsivak/miniconda3/envs/pytheos/lib/python3.12/site-packages/pymatgen/entries/mixing_scheme.py:183: UserWarning:
+
+r2SCAN entries do not form a complete PhaseDiagram.
+
+/Users/jtsivak/Projects/rocksalt-heo-chempot/scripts/01_extract_chempot_from_MP.py:51: UserWarning:
+
+WARNING! Discarding GGA entry mp-1023923-GGA for O6 because it was not found in the mixing state data. This can occur when there are duplicate structures. In such cases, only the lowest energy entry with that structure appears in the mixing state data.
+
+/Users/jtsivak/Projects/rocksalt-heo-chempot/scripts/01_extract_chempot_from_MP.py:51: UserWarning:
+
+WARNING! Discarding GGA entry mp-1180050-GGA for O8 because it was not found in the mixing state data. This can occur when there are duplicate structures. In such cases, only the lowest energy entry with that structure appears in the mixing state data.
+
+/Users/jtsivak/Projects/rocksalt-heo-chempot/scripts/01_extract_chempot_from_MP.py:51: UserWarning:
+
+WARNING! Discarding GGA entry mp-1102442-GGA for O12 because it was not found in the mixing state data. This can occur when there are duplicate structures. In such cases, only the lowest energy entry with that structure appears in the mixing state data.
+
+/Users/jtsivak/Projects/rocksalt-heo-chempot/scripts/01_extract_chempot_from_MP.py:51: UserWarning:
+
+WARNING! Discarding GGA+U entry mp-1181334-GGA+U for Fe4 O13 because it was not found in the mixing state data. This can occur when there are duplicate structures. In such cases, only the lowest energy entry with that structure appears in the mixing state data.
+
+/Users/jtsivak/Projects/rocksalt-heo-chempot/scripts/01_extract_chempot_from_MP.py:51: UserWarning:
+
+WARNING! Discarding GGA entry mp-1065697-GGA for O1 because it was not found in the mixing state data. This can occur when there are duplicate structures. In such cases, only the lowest energy entry with that structure appears in the mixing state data.
+
+/Users/jtsivak/Projects/rocksalt-heo-chempot/scripts/01_extract_chempot_from_MP.py:51: UserWarning:
+
+WARNING! Discarding GGA entry mp-611836-GGA for O2 because it was not found in the mixing state data. This can occur when there are duplicate structures. In such cases, only the lowest energy entry with that structure appears in the mixing state data.
+
+
+
+Fe-O chemical potential diagram
+FeO
+	[ 0.    -2.963]
+	[-0.3537 -2.6094]
+Fe2O3
+	[-4.2677  0.    ]
+	[-0.3537 -2.6094]
+O2
+	[-50.   0.]
+	[-4.2677  0.    ]
+Fe
+	[  0. -50.]
+	[ 0.    -2.963]
+
+stable oxygen range for FeO ->
+	min = -2.9630 eV
+	max = -2.6094 eV
+	distance = 0.3537 eV
+
+
+Retrieving ThermoDoc documents: 100%|█████████████████████████████████████████████████████████████| 89/89 [00:00<00:00, 5257648.68it/s]
+/Users/jtsivak/miniconda3/envs/pytheos/lib/python3.12/site-packages/pymatgen/entries/compatibility.py:621: UserWarning:
+
+Failed to guess oxidation states for Entry mp-705563-GGA+U (Co29O40). Assigning anion correction to only the most electronegative atom.
+
+/Users/jtsivak/miniconda3/envs/pytheos/lib/python3.12/site-packages/pymatgen/entries/compatibility.py:621: UserWarning:
+
+Failed to guess oxidation states for Entry mp-705564-GGA+U (Co23O32). Assigning anion correction to only the most electronegative atom.
+
+/Users/jtsivak/miniconda3/envs/pytheos/lib/python3.12/site-packages/pymatgen/entries/compatibility.py:621: UserWarning:
+
+Failed to guess oxidation states for Entry mp-1079523-GGA+U (CoO4). Assigning anion correction to only the most electronegative atom.
+
+/Users/jtsivak/miniconda3/envs/pytheos/lib/python3.12/site-packages/pymatgen/entries/mixing_scheme.py:183: UserWarning:
+
+r2SCAN entries do not form a complete PhaseDiagram.
+
+/Users/jtsivak/Projects/rocksalt-heo-chempot/scripts/01_extract_chempot_from_MP.py:51: UserWarning:
+
+WARNING! Discarding GGA entry mp-1023923-GGA for O6 because it was not found in the mixing state data. This can occur when there are duplicate structures. In such cases, only the lowest energy entry with that structure appears in the mixing state data.
+
+/Users/jtsivak/Projects/rocksalt-heo-chempot/scripts/01_extract_chempot_from_MP.py:51: UserWarning:
+
+WARNING! Discarding GGA entry mp-1180050-GGA for O8 because it was not found in the mixing state data. This can occur when there are duplicate structures. In such cases, only the lowest energy entry with that structure appears in the mixing state data.
+
+/Users/jtsivak/Projects/rocksalt-heo-chempot/scripts/01_extract_chempot_from_MP.py:51: UserWarning:
+
+WARNING! Discarding GGA entry mp-1102442-GGA for O12 because it was not found in the mixing state data. This can occur when there are duplicate structures. In such cases, only the lowest energy entry with that structure appears in the mixing state data.
+
+/Users/jtsivak/Projects/rocksalt-heo-chempot/scripts/01_extract_chempot_from_MP.py:51: UserWarning:
+
+WARNING! Discarding GGA entry mp-1065697-GGA for O1 because it was not found in the mixing state data. This can occur when there are duplicate structures. In such cases, only the lowest energy entry with that structure appears in the mixing state data.
+
+/Users/jtsivak/Projects/rocksalt-heo-chempot/scripts/01_extract_chempot_from_MP.py:51: UserWarning:
+
+WARNING! Discarding GGA entry mp-611836-GGA for O2 because it was not found in the mixing state data. This can occur when there are duplicate structures. In such cases, only the lowest energy entry with that structure appears in the mixing state data.
+
+
+
+Co-O chemical potential diagram
+CoO
+	[ 0.     -2.5688]
+	[-1.1674 -1.4014]
+CoO2
+	[-3.2424  0.    ]
+	[-2.6727 -0.2848]
+Co3O4
+	[-1.1674 -1.4014]
+	[-2.2739 -0.5715]
+Co23O32
+	[-2.2739 -0.5715]
+	[-2.6727 -0.2848]
+O2
+	[-50.   0.]
+	[-3.2424  0.    ]
+Co
+	[  0. -50.]
+	[ 0.     -2.5688]
+
+stable oxygen range for CoO ->
+	min = -2.5688 eV
+	max = -1.4014 eV
+	distance = 1.1674 eV
+
+
+Retrieving ThermoDoc documents: 100%|█████████████████████████████████████████████████████████████| 64/64 [00:00<00:00, 3397917.16it/s]
+/Users/jtsivak/miniconda3/envs/pytheos/lib/python3.12/site-packages/pymatgen/entries/compatibility.py:621: UserWarning:
+
+Failed to guess oxidation states for Entry mp-1094082-GGA+U (Ni4O). Assigning anion correction to only the most electronegative atom.
+
+/Users/jtsivak/miniconda3/envs/pytheos/lib/python3.12/site-packages/pymatgen/entries/mixing_scheme.py:183: UserWarning:
+
+r2SCAN entries do not form a complete PhaseDiagram.
+
+/Users/jtsivak/Projects/rocksalt-heo-chempot/scripts/01_extract_chempot_from_MP.py:51: UserWarning:
+
+WARNING! Discarding GGA entry mp-1102442-GGA for O12 because it was not found in the mixing state data. This can occur when there are duplicate structures. In such cases, only the lowest energy entry with that structure appears in the mixing state data.
+
+/Users/jtsivak/Projects/rocksalt-heo-chempot/scripts/01_extract_chempot_from_MP.py:51: UserWarning:
+
+WARNING! Discarding GGA entry mp-611836-GGA for O2 because it was not found in the mixing state data. This can occur when there are duplicate structures. In such cases, only the lowest energy entry with that structure appears in the mixing state data.
+
+/Users/jtsivak/Projects/rocksalt-heo-chempot/scripts/01_extract_chempot_from_MP.py:51: UserWarning:
+
+WARNING! Discarding GGA entry mp-1180050-GGA for O8 because it was not found in the mixing state data. This can occur when there are duplicate structures. In such cases, only the lowest energy entry with that structure appears in the mixing state data.
+
+/Users/jtsivak/Projects/rocksalt-heo-chempot/scripts/01_extract_chempot_from_MP.py:51: UserWarning:
+
+WARNING! Discarding GGA entry mp-1023923-GGA for O6 because it was not found in the mixing state data. This can occur when there are duplicate structures. In such cases, only the lowest energy entry with that structure appears in the mixing state data.
+
+/Users/jtsivak/Projects/rocksalt-heo-chempot/scripts/01_extract_chempot_from_MP.py:51: UserWarning:
+
+WARNING! Discarding GGA entry mp-1065697-GGA for O1 because it was not found in the mixing state data. This can occur when there are duplicate structures. In such cases, only the lowest energy entry with that structure appears in the mixing state data.
+
+
+
+Ni-O chemical potential diagram
+NiO
+	[ 0.     -2.4362]
+	[-2.4174 -0.0187]
+Ni3O4
+	[-2.4424  0.    ]
+	[-2.4174 -0.0187]
+O2
+	[-50.   0.]
+	[-2.4424  0.    ]
+Ni
+	[  0. -50.]
+	[ 0.     -2.4362]
+
+stable oxygen range for NiO ->
+	min = -2.4362 eV
+	max = -0.0187 eV
+	distance = 2.4174 eV
+
+
+Retrieving ThermoDoc documents: 100%|█████████████████████████████████████████████████████████████| 68/68 [00:00<00:00, 4527185.27it/s]
+/Users/jtsivak/miniconda3/envs/pytheos/lib/python3.12/site-packages/pymatgen/entries/compatibility.py:621: UserWarning:
+
+Failed to guess oxidation states for Entry mp-1213626-GGA (Cu64O). Assigning anion correction to only the most electronegative atom.
+
+/Users/jtsivak/miniconda3/envs/pytheos/lib/python3.12/site-packages/pymatgen/entries/compatibility.py:621: UserWarning:
+
+Failed to guess oxidation states for Entry mp-704745-GGA (Cu8O). Assigning anion correction to only the most electronegative atom.
+
+/Users/jtsivak/miniconda3/envs/pytheos/lib/python3.12/site-packages/pymatgen/entries/compatibility.py:621: UserWarning:
+
+Failed to guess oxidation states for Entry mp-705439-GGA (CuO2). Assigning anion correction to only the most electronegative atom.
+
+/Users/jtsivak/miniconda3/envs/pytheos/lib/python3.12/site-packages/pymatgen/entries/compatibility.py:621: UserWarning:
+
+Failed to guess oxidation states for Entry mp-1207322-GGA (Cu6O). Assigning anion correction to only the most electronegative atom.
+
+/Users/jtsivak/miniconda3/envs/pytheos/lib/python3.12/site-packages/pymatgen/entries/compatibility.py:621: UserWarning:
+
+Failed to guess oxidation states for Entry mp-31217-GGA (Cu8O). Assigning anion correction to only the most electronegative atom.
+
+/Users/jtsivak/miniconda3/envs/pytheos/lib/python3.12/site-packages/pymatgen/entries/mixing_scheme.py:183: UserWarning:
+
+r2SCAN entries do not form a complete PhaseDiagram.
+
+/Users/jtsivak/Projects/rocksalt-heo-chempot/scripts/01_extract_chempot_from_MP.py:51: UserWarning:
+
+WARNING! Discarding GGA entry mp-1102442-GGA for O12 because it was not found in the mixing state data. This can occur when there are duplicate structures. In such cases, only the lowest energy entry with that structure appears in the mixing state data.
+
+/Users/jtsivak/Projects/rocksalt-heo-chempot/scripts/01_extract_chempot_from_MP.py:51: UserWarning:
+
+WARNING! Discarding GGA entry mp-611836-GGA for O2 because it was not found in the mixing state data. This can occur when there are duplicate structures. In such cases, only the lowest energy entry with that structure appears in the mixing state data.
+
+/Users/jtsivak/Projects/rocksalt-heo-chempot/scripts/01_extract_chempot_from_MP.py:51: UserWarning:
+
+WARNING! Discarding GGA entry mp-1180050-GGA for O8 because it was not found in the mixing state data. This can occur when there are duplicate structures. In such cases, only the lowest energy entry with that structure appears in the mixing state data.
+
+/Users/jtsivak/Projects/rocksalt-heo-chempot/scripts/01_extract_chempot_from_MP.py:51: UserWarning:
+
+WARNING! Discarding GGA entry mp-1023923-GGA for O6 because it was not found in the mixing state data. This can occur when there are duplicate structures. In such cases, only the lowest energy entry with that structure appears in the mixing state data.
+
+/Users/jtsivak/Projects/rocksalt-heo-chempot/scripts/01_extract_chempot_from_MP.py:51: UserWarning:
+
+WARNING! Discarding GGA entry mp-1065697-GGA for O1 because it was not found in the mixing state data. This can occur when there are duplicate structures. In such cases, only the lowest energy entry with that structure appears in the mixing state data.
+
+
+
+Cu-O chemical potential diagram
+CuO
+	[-0.0479 -1.8377]
+	[-1.4911 -0.3945]
+Cu2O
+	[ 0.     -1.9335]
+	[-0.0479 -1.8377]
+Cu2O3
+	[-2.0828  0.    ]
+	[-1.4911 -0.3945]
+O2
+	[-50.   0.]
+	[-2.0828  0.    ]
+Cu
+	[  0. -50.]
+	[ 0.     -1.9335]
+
+stable oxygen range for CuO ->
+	min = -1.8377 eV
+	max = -0.3945 eV
+	distance = 1.4432 eV
+
+
+Retrieving ThermoDoc documents: 100%|█████████████████████████████████████████████████████████████| 48/48 [00:00<00:00, 3195660.19it/s]
+/Users/jtsivak/miniconda3/envs/pytheos/lib/python3.12/site-packages/pymatgen/entries/mixing_scheme.py:183: UserWarning:
+
+r2SCAN entries do not form a complete PhaseDiagram.
+
+/Users/jtsivak/Projects/rocksalt-heo-chempot/scripts/01_extract_chempot_from_MP.py:51: UserWarning:
+
+WARNING! Discarding GGA entry mp-1102442-GGA for O12 because it was not found in the mixing state data. This can occur when there are duplicate structures. In such cases, only the lowest energy entry with that structure appears in the mixing state data.
+
+/Users/jtsivak/Projects/rocksalt-heo-chempot/scripts/01_extract_chempot_from_MP.py:51: UserWarning:
+
+WARNING! Discarding GGA entry mp-611836-GGA for O2 because it was not found in the mixing state data. This can occur when there are duplicate structures. In such cases, only the lowest energy entry with that structure appears in the mixing state data.
+
+/Users/jtsivak/Projects/rocksalt-heo-chempot/scripts/01_extract_chempot_from_MP.py:51: UserWarning:
+
+WARNING! Discarding GGA entry mp-1180050-GGA for O8 because it was not found in the mixing state data. This can occur when there are duplicate structures. In such cases, only the lowest energy entry with that structure appears in the mixing state data.
+
+/Users/jtsivak/Projects/rocksalt-heo-chempot/scripts/01_extract_chempot_from_MP.py:51: UserWarning:
+
+WARNING! Discarding GGA entry mp-1023923-GGA for O6 because it was not found in the mixing state data. This can occur when there are duplicate structures. In such cases, only the lowest energy entry with that structure appears in the mixing state data.
+
+/Users/jtsivak/Projects/rocksalt-heo-chempot/scripts/01_extract_chempot_from_MP.py:51: UserWarning:
+
+WARNING! Discarding GGA entry mp-1065697-GGA for O1 because it was not found in the mixing state data. This can occur when there are duplicate structures. In such cases, only the lowest energy entry with that structure appears in the mixing state data.
+
+
+
+Zn-O chemical potential diagram
+ZnO
+	[ 0.     -3.5818]
+	[-3.5818  0.    ]
+O2
+	[-50.   0.]
+	[-3.5818  0.    ]
+Zn
+	[  0. -50.]
+	[ 0.     -3.5818]
+
+stable oxygen range for ZnO ->
+	min = -3.5818 eV
+	max = 0.0000 eV
+	distance = 3.5818 eV
+
+
+A2+O2- stable oxygen chemical potential ranges ->
+
+     composition     MgO     MnO     FeO     CoO     NiO     CuO     ZnO
+0       min (eV) -6.1068 -3.9584 -2.9630 -2.5688 -2.4362 -1.8377 -3.5818
+1       max (eV)  0.0000 -2.4777 -2.6094 -1.4014 -0.0187 -0.3945  0.0000
+2  distance (eV)  6.1068  1.4807  0.3537  1.1674  2.4174  1.4432  3.5818
+(pytheos) jtsivak@Macbook scripts % 

@@ -1,0 +1,1371 @@
+Processing 57 GGA(+U) and 20 R2SCAN entries...
+  Processed 57 compatible GGA(+U) entries with MaterialsProject2020Compatibility
+  Entries belong to the {'O', 'Mg'} chemical system
+  Generating mixing state data from provided entries.
+  Entries contain R2SCAN calculations for 3 of 3 GGA(+U) hull entries.
+  GGA(+U) energies will be adjusted to the R2SCAN scale
+  The energy above hull for R2SCAN materials at compositions with R2SCAN hull entries will be preserved. For other compositions, Energies of R2SCAN materials will be set equal to those of matching GGA(+U) materials
+  Discarding GGA entry mp-1192189-GGA for Mg12 O12 because there is a matching R2SCAN material.
+  Discarding GGA entry mp-2589-GGA for Mg4 O8 because there is a matching R2SCAN material.
+  Discarding GGA entry mp-1056702-GGA for Mg1 because it is a GGA(+U) ground state that matches a R2SCAN material.
+  Discarding GGA entry mp-973364-GGA for Mg4 because there is a matching R2SCAN material.
+  Discarding GGA entry mp-723285-GGA for O8 because it is a GGA(+U) ground state that matches a R2SCAN material.
+  Discarding GGA entry mp-153-GGA for Mg2 because there is a matching R2SCAN material.
+  Discarding GGA entry mp-1065577-GGA for Mg2 O2 because there is a matching R2SCAN material.
+  Discarding GGA entry mp-1056351-GGA for Mg1 because there is a matching R2SCAN material.
+  Discarding GGA entry mp-1180312-GGA for Mg8 O8 because there is a matching R2SCAN material.
+  Discarding GGA entry mp-549706-GGA for Mg2 O2 because there is a matching R2SCAN material.
+  Discarding GGA entry mp-110-GGA for Mg1 because there is a matching R2SCAN material.
+  Discarding GGA entry mp-610917-GGA for O2 because there is a matching R2SCAN material.
+  Discarding GGA entry mp-1009490-GGA for O2 because there is a matching R2SCAN material.
+  Discarding GGA entry mp-1066100-GGA for O4 because there is a matching R2SCAN material.
+  Discarding GGA entry mp-1265-GGA for Mg1 O1 because it is a GGA(+U) ground state that matches a R2SCAN material.
+  Discarding GGA entry mp-1192043-GGA for Mg12 O12 because there is a matching R2SCAN material.
+  Discarding GGA entry mp-775808-GGA for Mg6 O6 because there is a matching R2SCAN material.
+  Discarding GGA entry mp-776911-GGA for Mg4 O4 because there is a matching R2SCAN material.
+
+Processing complete. Mixed entries contain 34 GGA(+U) and 19 R2SCAN entries.
+
+entry_id    formula     spacegroup  run_type  eV/atom corr/atom e_above_hull
+mp-153-R2SCANMg          P6_3/mmc    R2SCAN    -4.169  0.000     0.000    
+mp-1094122-GGAMg          R-3m        GGA       -4.166  -2.569    0.003    
+mp-973364-R2SCANMg          P6_3/mmc    R2SCAN    -4.161  0.000     0.009    
+mp-1094122-R2SCANMg          R-3m        R2SCAN    -4.158  0.000     0.011    
+mp-1056702-R2SCANMg          Fm-3m       R2SCAN    -4.139  0.000     0.030    
+mp-1056351-R2SCANMg          I4/mmm      R2SCAN    -4.132  0.000     0.038    
+mp-110-R2SCANMg          Im-3m       R2SCAN    -4.130  0.000     0.040    
+mp-1247180-GGAMg          P2_1/m      GGA       -3.992  -2.569    0.177    
+mp-1055956-GGAMg          P6/mmm      GGA       -3.933  -2.569    0.237    
+mp-1265-R2SCANMgO         Fm-3m       R2SCAN    -8.064  0.000     0.000    
+mp-1192189-R2SCANMgO         P6_3/mmc    R2SCAN    -8.021  0.000     0.043    
+mp-1180973-GGAMgO         R-3m        GGA       -8.004  -2.080    0.060    
+mp-1065577-R2SCANMgO         P6_3/mmc    R2SCAN    -8.001  0.000     0.063    
+mp-1192043-R2SCANMgO         Ibam        R2SCAN    -7.972  0.000     0.092    
+mp-1180312-R2SCANMgO         Ibam        R2SCAN    -7.958  0.000     0.106    
+mp-1190533-GGAMgO         P6/mcc      GGA       -7.951  -2.080    0.113    
+mp-549706-R2SCANMgO         P6_3mc      R2SCAN    -7.946  0.000     0.118    
+mp-775808-R2SCANMgO         Cm          R2SCAN    -7.932  0.000     0.132    
+mp-1101930-GGAMgO         Pm-3n       GGA       -7.929  -2.080    0.136    
+mp-776911-R2SCANMgO         P6_3mc      R2SCAN    -7.926  0.000     0.138    
+mp-1190649-GGAMgO         Cm          GGA       -7.911  -2.080    0.154    
+mp-1191789-GGAMgO         C2/c        GGA       -7.899  -2.080    0.166    
+mp-1245039-GGAMgO         P1          GGA       -7.810  -2.080    0.254    
+mp-1245045-GGAMgO         P1          GGA       -7.749  -2.080    0.316    
+mp-1245232-GGAMgO         P1          GGA       -7.743  -2.080    0.322    
+mp-1244962-GGAMgO         P1          GGA       -7.735  -2.080    0.329    
+mp-1009129-GGAMgO         P-6m2       GGA       -7.727  -2.080    0.337    
+mp-1245143-GGAMgO         P1          GGA       -7.723  -2.080    0.341    
+mp-1245195-GGAMgO         P1          GGA       -7.719  -2.080    0.345    
+mp-1245128-GGAMgO         P1          GGA       -7.719  -2.080    0.346    
+mp-1245157-GGAMgO         P1          GGA       -7.716  -2.080    0.348    
+mp-1009127-GGAMgO         Pm-3m       GGA       -7.316  -2.080    0.748    
+mp-1180271-GGAMgO2        R-3m        GGA       -7.282  -1.806    0.081    
+mp-2589-R2SCANMgO2        Pa-3        R2SCAN    -7.269  0.000     0.094    
+mp-1245393-GGAMgO2        P1          GGA       -6.991  -1.603    0.372    
+mp-1180260-GGAMgO2        C2/m        GGA       -6.825  -1.954    0.538    
+mp-1096803-GGAMgO2        C2/m        GGA       -6.823  -1.954    0.540    
+mp-611836-R2SCANO2          C2/m        R2SCAN    -5.961  0.000     0.000    
+mp-610917-R2SCANO2          R-3m        R2SCAN    -5.955  0.000     0.005    
+mp-723285-R2SCANO2          P4_12_12    R2SCAN    -5.955  0.000     0.006    
+mp-1087546-GGAO2          C2/c        GGA       -5.944  -1.014    0.017    
+mp-1180036-GGAO2          P2/c        GGA       -5.932  -1.014    0.029    
+mp-607540-GGAO2          Fmmm        GGA       -5.841  -1.014    0.120    
+mp-1066100-R2SCANO2          P6_3/mmc    R2SCAN    -5.692  0.000     0.269    
+mp-1180064-GGAO2          P1          GGA       -5.575  -1.014    0.386    
+mp-560602-GGAO2          Pbca        GGA       -5.551  -1.014    0.410    
+mp-1180008-GGAO2          P1          GGA       -5.542  -1.014    0.419    
+mp-734188-GGAO2          P4_1        GGA       -5.527  -1.014    0.433    
+mp-2421172-GGAO2          R3c         GGA       -5.046  -1.014    0.915    
+mp-1056831-GGAO2          P2/m        GGA       -4.651  -1.014    1.310    
+mp-1056059-GGAO2          P4/mmm      GGA       -4.404  -1.014    1.556    
+mp-1058623-GGAO2          Cmcm        GGA       -4.391  -1.014    1.569    
+mp-1057818-GGAO2          Fd-3m       GGA       -4.081  -1.014    1.880    
+MgO fraction = 1.00
+Processing 48 GGA(+U) and 15 R2SCAN entries...
+  Processed 48 compatible GGA(+U) entries with MaterialsProject2020Compatibility
+  Entries belong to the {'Ca', 'O'} chemical system
+  Generating mixing state data from provided entries.
+  Entries contain R2SCAN calculations for 4 of 4 GGA(+U) hull entries.
+  GGA(+U) energies will be adjusted to the R2SCAN scale
+  The energy above hull for R2SCAN materials at compositions with R2SCAN hull entries will be preserved. For other compositions, Energies of R2SCAN materials will be set equal to those of matching GGA(+U) materials
+  Discarding GGA entry mp-1008498-GGA for Ca4 because there is a matching R2SCAN material.
+  Discarding GGA entry mp-723285-GGA for O8 because it is a GGA(+U) ground state that matches a R2SCAN material.
+  Discarding GGA entry mp-2605-GGA for Ca1 O1 because it is a GGA(+U) ground state that matches a R2SCAN material.
+  Discarding GGA entry mp-1064227-GGA for Ca2 because there is a matching R2SCAN material.
+  Discarding GGA entry mp-1183484-GGA for Ca4 because there is a matching R2SCAN material.
+  Discarding GGA entry mp-545512-GGA for Ca2 O2 because there is a matching R2SCAN material.
+  Discarding GGA entry mp-21-GGA for Ca1 because there is a matching R2SCAN material.
+  Discarding GGA entry mp-45-GGA for Ca1 because it is a GGA(+U) ground state that matches a R2SCAN material.
+  Discarding GGA entry mp-610917-GGA for O2 because there is a matching R2SCAN material.
+  Discarding GGA entry mp-1009490-GGA for O2 because there is a matching R2SCAN material.
+  Discarding GGA entry mp-1066100-GGA for O4 because there is a matching R2SCAN material.
+  Discarding GGA entry mp-634859-GGA for Ca1 O2 because it is a GGA(+U) ground state that matches a R2SCAN material.
+
+Processing complete. Mixed entries contain 31 GGA(+U) and 14 R2SCAN entries.
+
+entry_id    formula     spacegroup  run_type  eV/atom corr/atom e_above_hull
+mp-45-R2SCANCa          Fm-3m       R2SCAN    -7.038  0.000     0.000    
+mp-21-R2SCANCa          Im-3m       R2SCAN    -7.035  0.000     0.003    
+mp-132-GGA  Ca          P6_3/mmc    GGA       -7.032  -5.033    0.006    
+mp-132-R2SCANCa          Cmcm        R2SCAN    -7.030  0.000     0.008    
+mp-1183484-R2SCANCa          P6_3/mmc    R2SCAN    -7.029  0.000     0.009    
+mp-1064227-R2SCANCa          Cmcm        R2SCAN    -7.028  0.000     0.010    
+mp-1183455-GGACa          I4/mmm      GGA       -7.025  -5.033    0.013    
+mp-1183455-R2SCANCa          I4/mmm      R2SCAN    -7.023  0.000     0.015    
+mp-1078638-GGACa          P4_12_12    GGA       -7.019  -5.033    0.019    
+mp-166-GGA  Ca          I4/mmm      GGA       -7.017  -5.033    0.021    
+mp-1008498-R2SCANCa          I4/mcm      R2SCAN    -6.859  0.000     0.180    
+mp-1067285-GGACa          Cmce        GGA       -6.761  -5.033    0.277    
+mp-10683-GGACa          Pm-3m       GGA       -6.639  -5.033    0.400    
+mp-1227541-GGACa          P4/mmm      GGA       -6.065  -5.033    0.973    
+mp-1120811-GGACa2O3       P1          GGA       -8.762  -2.971    0.214    
+mp-2605-R2SCANCaO         Fm-3m       R2SCAN    -9.730  0.000     0.000    
+mp-545512-R2SCANCaO         P6_3/mmc    R2SCAN    -9.625  0.000     0.104    
+mp-1079707-GGACaO         Cmce        GGA       -9.520  -3.290    0.210    
+mp-1064492-GGACaO         I4/mmm      GGA       -9.520  -3.290    0.210    
+mp-1245305-GGACaO         P1          GGA       -9.434  -3.290    0.295    
+mp-1244902-GGACaO         P1          GGA       -9.418  -3.290    0.311    
+mp-1245200-GGACaO         P1          GGA       -9.388  -3.290    0.342    
+mp-1181903-GGACaO         Fd-3m       GGA       -7.001  -3.290    2.728    
+mp-1182382-GGACaO10       P4/mcc      GGA       -6.597  -1.511    0.049    
+mp-1182183-GGACaO10       P4/mcc      GGA       -6.569  -1.511    0.077    
+mp-634859-R2SCANCaO2        I4/mmm      R2SCAN    -8.421  0.000     0.052    
+mp-1181909-GGACaO2        C2/m        GGA       -8.192  -2.758    0.281    
+mp-1095665-GGACaO2        C2/c        GGA       -8.190  -2.758    0.283    
+mp-1062228-GGACaO2        P-3m1       GGA       -7.979  -2.758    0.494    
+mp-611836-R2SCANO2          C2/m        R2SCAN    -5.961  0.000     0.000    
+mp-610917-R2SCANO2          R-3m        R2SCAN    -5.955  0.000     0.005    
+mp-723285-R2SCANO2          P4_12_12    R2SCAN    -5.955  0.000     0.006    
+mp-1087546-GGAO2          C2/c        GGA       -5.944  -1.014    0.017    
+mp-1180036-GGAO2          P2/c        GGA       -5.932  -1.014    0.029    
+mp-607540-GGAO2          Fmmm        GGA       -5.841  -1.014    0.120    
+mp-1066100-R2SCANO2          P6_3/mmc    R2SCAN    -5.692  0.000     0.269    
+mp-1180064-GGAO2          P1          GGA       -5.575  -1.014    0.386    
+mp-560602-GGAO2          Pbca        GGA       -5.551  -1.014    0.410    
+mp-1180008-GGAO2          P1          GGA       -5.542  -1.014    0.419    
+mp-734188-GGAO2          P4_1        GGA       -5.527  -1.014    0.433    
+mp-2421172-GGAO2          R3c         GGA       -5.046  -1.014    0.915    
+mp-1056831-GGAO2          P2/m        GGA       -4.651  -1.014    1.310    
+mp-1056059-GGAO2          P4/mmm      GGA       -4.404  -1.014    1.556    
+mp-1058623-GGAO2          Cmcm        GGA       -4.391  -1.014    1.569    
+mp-1057818-GGAO2          Fd-3m       GGA       -4.081  -1.014    1.880    
+CaO fraction = 1.00
+Processing 45 GGA(+U) and 13 R2SCAN entries...
+  Processed 45 compatible GGA(+U) entries with MaterialsProject2020Compatibility
+  Entries belong to the {'Sc', 'O'} chemical system
+  Generating mixing state data from provided entries.
+  Entries contain R2SCAN calculations for 3 of 3 GGA(+U) hull entries.
+  GGA(+U) energies will be adjusted to the R2SCAN scale
+  The energy above hull for R2SCAN materials at compositions with R2SCAN hull entries will be preserved. For other compositions, Energies of R2SCAN materials will be set equal to those of matching GGA(+U) materials
+  Discarding GGA entry mp-67-GGA for Sc2 because it is a GGA(+U) ground state that matches a R2SCAN material.
+  Discarding GGA entry mp-723285-GGA for O8 because it is a GGA(+U) ground state that matches a R2SCAN material.
+  Discarding GGA entry mp-216-GGA for Sc16 O24 because it is a GGA(+U) ground state that matches a R2SCAN material.
+  Discarding GGA entry mp-754455-GGA for Sc4 O6 because there is a matching R2SCAN material.
+  Discarding GGA entry mp-644481-GGA for Sc1 O1 because there is a matching R2SCAN material.
+  Discarding GGA entry mp-610917-GGA for O2 because there is a matching R2SCAN material.
+  Discarding GGA entry mp-1009490-GGA for O2 because there is a matching R2SCAN material.
+  Discarding GGA entry mp-36-GGA for Sc1 because there is a matching R2SCAN material.
+  Discarding GGA entry mp-755313-GGA for Sc4 O6 because there is a matching R2SCAN material.
+  Discarding GGA entry mp-1066100-GGA for O4 because there is a matching R2SCAN material.
+  Discarding GGA entry mp-558748-GGA for Sc6 O9 because there is a matching R2SCAN material.
+
+Processing complete. Mixed entries contain 29 GGA(+U) and 12 R2SCAN entries.
+
+entry_id    formula     spacegroup  run_type  eV/atom corr/atom e_above_hull
+mp-611836-R2SCANO2          C2/m        R2SCAN    -5.961  0.000     0.000    
+mp-610917-R2SCANO2          R-3m        R2SCAN    -5.955  0.000     0.005    
+mp-723285-R2SCANO2          P4_12_12    R2SCAN    -5.955  0.000     0.006    
+mp-1087546-GGAO2          C2/c        GGA       -5.944  -1.014    0.017    
+mp-1180036-GGAO2          P2/c        GGA       -5.932  -1.014    0.029    
+mp-607540-GGAO2          Fmmm        GGA       -5.841  -1.014    0.120    
+mp-1066100-R2SCANO2          P6_3/mmc    R2SCAN    -5.692  0.000     0.269    
+mp-1180064-GGAO2          P1          GGA       -5.575  -1.014    0.386    
+mp-560602-GGAO2          Pbca        GGA       -5.551  -1.014    0.410    
+mp-1180008-GGAO2          P1          GGA       -5.542  -1.014    0.419    
+mp-734188-GGAO2          P4_1        GGA       -5.527  -1.014    0.433    
+mp-2421172-GGAO2          R3c         GGA       -5.046  -1.014    0.915    
+mp-1056831-GGAO2          P2/m        GGA       -4.651  -1.014    1.310    
+mp-1056059-GGAO2          P4/mmm      GGA       -4.404  -1.014    1.556    
+mp-1058623-GGAO2          Cmcm        GGA       -4.391  -1.014    1.569    
+mp-1057818-GGAO2          Fd-3m       GGA       -4.081  -1.014    1.880    
+mp-67-R2SCANSc          P6_3/mmc    R2SCAN    -11.398 0.000     0.000    
+mp-1055932-GGASc          C2/m        GGA       -11.346 -5.066    0.052    
+mp-1977495-GGASc          C2/m        GGA       -11.333 -5.066    0.065    
+mp-1179655-GGASc          C2/c        GGA       -11.332 -5.066    0.066    
+mp-36-R2SCANSc          Fm-3m       R2SCAN    -11.297 0.000     0.101    
+mp-10641-GGASc          Im-3m       GGA       -11.296 -5.066    0.102    
+mp-1056366-GGASc          I4/mmm      GGA       -11.291 -5.066    0.108    
+mp-1064244-GGASc          P4/nmm      GGA       -11.286 -5.066    0.112    
+mp-10641-R2SCANSc          Im-3m       R2SCAN    -11.281 0.000     0.117    
+mp-601273-GGASc          P6_122      GGA       -11.271 -5.066    0.128    
+mp-567308-GGASc          I4/mcm      GGA       -11.193 -5.066    0.206    
+mp-1008681-GGASc          Pm-3m       GGA       -10.679 -5.066    0.719    
+mp-759946-GGASc16O15     R-3m        GGA       -11.828 -3.352    0.054    
+mp-684697-GGASc20O19     I4/m        GGA       -11.825 -3.340    0.060    
+mp-216-R2SCANSc2O3       Ia-3        R2SCAN    -11.998 0.000     0.000    
+mp-755313-R2SCANSc2O3       R-3c        R2SCAN    -11.962 0.000     0.036    
+mp-558748-R2SCANSc2O3       C2/m        R2SCAN    -11.933 0.000     0.066    
+mp-775837-GGASc2O3       Pna2_1      GGA       -11.917 -2.940    0.082    
+mp-754455-R2SCANSc2O3       R-3         R2SCAN    -11.901 0.000     0.097    
+mp-13060-GGASc2O3       P-3m1       GGA       -11.867 -2.940    0.132    
+mp-644481-R2SCANScO         Fm-3m       R2SCAN    -11.794 0.000     0.104    
+mp-1179114-GGAScO2        Pnma        GGA       -10.720 -2.734    0.272    
+mp-1206234-GGAScO2        Pnnm        GGA       -10.718 -2.734    0.274    
+mp-1179108-GGAScO2        Cmcm        GGA       -10.664 -2.734    0.328    
+mp-1186987-GGAScO3        P6_3/mmc    GGA       -9.042  -2.475    0.692    
+ScO fraction = 0.00
+Processing 151 GGA(+U) and 61 R2SCAN entries...
+  Processed 151 compatible GGA(+U) entries with MaterialsProject2020Compatibility
+  Entries belong to the {'Ti', 'O'} chemical system
+  Generating mixing state data from provided entries.
+  Entries contain R2SCAN calculations for 9 of 9 GGA(+U) hull entries.
+  GGA(+U) energies will be adjusted to the R2SCAN scale
+  The energy above hull for R2SCAN materials at compositions with R2SCAN hull entries will be preserved. For other compositions, Energies of R2SCAN materials will be set equal to those of matching GGA(+U) materials
+  Discarding GGA entry mp-1840-GGA for Ti8 O16 because there is a matching R2SCAN material.
+  Discarding GGA entry mp-760747-GGA for Ti11 O18 because there is a matching R2SCAN material.
+  Discarding GGA entry mp-1217152-GGA for Ti6 O3 because there is a matching R2SCAN material.
+  Discarding GGA entry mp-759920-GGA for Ti15 O24 because there is a matching R2SCAN material.
+  Discarding GGA entry mp-755875-GGA for Ti3 O4 because there is a matching R2SCAN material.
+  Discarding GGA entry mp-46-GGA for Ti2 because there is a matching R2SCAN material.
+  Discarding GGA entry mp-554278-GGA for Ti4 O8 because it is a GGA(+U) ground state that matches a R2SCAN material.
+  Discarding GGA entry mp-1147-GGA for Ti6 O10 because it is a GGA(+U) ground state that matches a R2SCAN material.
+  Discarding GGA entry mp-2591-GGA for Ti12 O4 because it is a GGA(+U) ground state that matches a R2SCAN material.
+  Discarding GGA entry mp-556754-GGA for Ti6 O10 because there is a matching R2SCAN material.
+  Discarding GGA entry mp-775938-GGA for Ti12 O24 because there is a matching R2SCAN material.
+  Discarding GGA entry mp-553432-GGA for Ti3 O6 because there is a matching R2SCAN material.
+  Discarding GGA entry mp-6985-GGA for Ti1 because there is a matching R2SCAN material.
+  Discarding GGA entry mp-1400963-GGA for Ti4 O8 because there is a matching R2SCAN material.
+  Discarding GGA entry mp-1217135-GGA for Ti4 O3 because there is a matching R2SCAN material.
+  Discarding GGA entry mp-766454-GGA for Ti3 O6 because there is a matching R2SCAN material.
+  Discarding GGA entry mp-390-GGA for Ti2 O4 because there is a matching R2SCAN material.
+  Discarding GGA entry mp-8057-GGA for Ti6 O10 because there is a matching R2SCAN material.
+  Discarding GGA entry mp-754672-GGA for Ti4 O8 because there is a matching R2SCAN material.
+  Discarding GGA entry mp-557812-GGA for Ti18 O6 because there is a matching R2SCAN material.
+  Discarding GGA entry mp-754769-GGA for Ti8 O16 because there is a matching R2SCAN material.
+  Discarding GGA entry mp-30524-GGA for Ti12 O22 because there is a matching R2SCAN material.
+  Discarding GGA entry mp-610917-GGA for O2 because there is a matching R2SCAN material.
+  Discarding GGA entry mp-776456-GGA for Ti12 O18 because there is a matching R2SCAN material.
+  Discarding GGA entry mp-1101022-GGA for Ti4 O8 because there is a matching R2SCAN material.
+  Discarding GGA entry mp-1439-GGA for Ti4 O8 because there is a matching R2SCAN material.
+  Discarding GGA entry mp-554098-GGA for Ti12 O2 because it is a GGA(+U) ground state that matches a R2SCAN material.
+  Discarding GGA entry mp-1215-GGA for Ti2 O1 because it is a GGA(+U) ground state that matches a R2SCAN material.
+  Discarding GGA entry mp-72-GGA for Ti3 because it is a GGA(+U) ground state that matches a R2SCAN material.
+  Discarding GGA entry mp-1203-GGA for Ti5 O5 because there is a matching R2SCAN material.
+  Discarding GGA entry mp-748-GGA for Ti10 O18 because there is a matching R2SCAN material.
+  Discarding GGA entry mp-752989-GGA for Ti8 O13 because there is a matching R2SCAN material.
+  Discarding GGA entry mp-723285-GGA for O8 because it is a GGA(+U) ground state that matches a R2SCAN material.
+  Discarding GGA entry mp-1071163-GGA for Ti3 O3 because it is a GGA(+U) ground state that matches a R2SCAN material.
+  Discarding GGA entry mp-556480-GGA for Ti6 O10 because there is a matching R2SCAN material.
+  Discarding GGA entry mp-559964-GGA for Ti12 O22 because there is a matching R2SCAN material.
+  Discarding GGA entry mp-1009490-GGA for O2 because there is a matching R2SCAN material.
+  Discarding GGA entry mp-9173-GGA for Ti4 O8 because there is a matching R2SCAN material.
+  Discarding GGA entry mp-1066100-GGA for O4 because there is a matching R2SCAN material.
+  Discarding GGA entry mp-1201727-GGA for Ti16 O32 because there is a matching R2SCAN material.
+  Discarding GGA entry mp-776655-GGA for Ti8 O12 because there is a matching R2SCAN material.
+  Discarding GGA entry mp-755264-GGA for Ti1 O1 because there is a matching R2SCAN material.
+  Discarding GGA entry mp-1217157-GGA for Ti3 O4 because there is a matching R2SCAN material.
+  Discarding GGA entry mp-756655-GGA for Ti8 O16 because there is a matching R2SCAN material.
+  Discarding GGA entry mp-656852-GGA for Ti26 O44 because there is a matching R2SCAN material.
+  Discarding GGA entry mp-565700-GGA for Ti16 O30 because there is a matching R2SCAN material.
+  Discarding GGA entry mp-458-GGA for Ti4 O6 because it is a GGA(+U) ground state that matches a R2SCAN material.
+  Discarding GGA entry mp-10734-GGA for Ti4 O5 because there is a matching R2SCAN material.
+  Discarding GGA entry mp-978968-GGA for Ti6 O4 because there is a matching R2SCAN material.
+  Discarding GGA entry mp-73-GGA for Ti1 because there is a matching R2SCAN material.
+  Discarding GGA entry mp-1101295-GGA for Ti4 O6 because there is a matching R2SCAN material.
+  Discarding GGA entry mp-556724-GGA for Ti14 O26 because there is a matching R2SCAN material.
+  Discarding GGA entry mp-760075-GGA for Ti19 O30 because there is a matching R2SCAN material.
+  Discarding GGA entry mp-753593-GGA for Ti10 O13 because there is a matching R2SCAN material.
+  Discarding GGA entry mp-1188323-GGA for Ti8 O12 because there is a matching R2SCAN material.
+  Discarding GGA entry mp-430-GGA for Ti4 O8 because there is a matching R2SCAN material.
+  Discarding GGA entry mp-27273-GGA for Ti18 O34 because there is a matching R2SCAN material.
+
+Processing complete. Mixed entries contain 89 GGA(+U) and 60 R2SCAN entries.
+
+entry_id    formula     spacegroup  run_type  eV/atom corr/atom e_above_hull
+mp-611836-R2SCANO2          C2/m        R2SCAN    -5.961  0.000     0.000    
+mp-610917-R2SCANO2          R-3m        R2SCAN    -5.955  0.000     0.005    
+mp-723285-R2SCANO2          P4_12_12    R2SCAN    -5.955  0.000     0.006    
+mp-1087546-GGAO2          C2/c        GGA       -5.944  -1.014    0.017    
+mp-1180036-GGAO2          P2/c        GGA       -5.932  -1.014    0.029    
+mp-607540-GGAO2          Fmmm        GGA       -5.841  -1.014    0.120    
+mp-1066100-R2SCANO2          P6_3/mmc    R2SCAN    -5.692  0.000     0.269    
+mp-1180064-GGAO2          P1          GGA       -5.575  -1.014    0.386    
+mp-560602-GGAO2          Pbca        GGA       -5.551  -1.014    0.410    
+mp-1180008-GGAO2          P1          GGA       -5.542  -1.014    0.419    
+mp-734188-GGAO2          P4_1        GGA       -5.527  -1.014    0.433    
+mp-2421172-GGAO2          R3c         GGA       -5.046  -1.014    0.915    
+mp-1056831-GGAO2          P2/m        GGA       -4.651  -1.014    1.310    
+mp-1056059-GGAO2          P4/mmm      GGA       -4.404  -1.014    1.556    
+mp-1058623-GGAO2          Cmcm        GGA       -4.391  -1.014    1.569    
+mp-1057818-GGAO2          Fd-3m       GGA       -4.081  -1.014    1.880    
+mp-72-R2SCANTi          P6/mmm      R2SCAN    -12.938 0.000     0.000    
+mp-46-R2SCANTi          P6_3/mmc    R2SCAN    -12.923 0.000     0.015    
+mp-6985-R2SCANTi          Fm-3m       R2SCAN    -12.850 0.000     0.087    
+mp-1245164-GGATi          P1          GGA       -12.799 -5.042    0.138    
+mp-1245006-GGATi          P1          GGA       -12.796 -5.042    0.141    
+mp-73-R2SCANTi          Im-3m       R2SCAN    -12.786 0.000     0.151    
+mp-1245320-GGATi          P1          GGA       -12.783 -5.042    0.155    
+mp-1245170-GGATi          P1          GGA       -12.768 -5.042    0.170    
+mp-1244924-GGATi          P1          GGA       -12.754 -5.042    0.183    
+mp-1238818-GGATi          P-3m1       GGA       -12.627 -5.042    0.310    
+mp-684733-GGATi10O11     P-1         GGA       -12.023 -3.175    0.146    
+mp-753593-R2SCANTi10O13     C2/m        R2SCAN    -11.986 0.000     0.045    
+mp-1101463-GGATi11O14     C2/m        GGA       -12.000 -3.043    0.048    
+mp-760747-R2SCANTi11O18     P1          R2SCAN    -11.803 0.000     0.023    
+mp-656852-R2SCANTi13O22     Cmce        R2SCAN    -11.763 0.000     0.028    
+mp-760075-R2SCANTi19O30     P1          R2SCAN    -11.847 0.000     0.014    
+mp-1215-R2SCANTi2O        P-3m1       R2SCAN    -12.595 0.000     0.000    
+mp-1217152-R2SCANTi2O        P2/m        R2SCAN    -12.530 0.000     0.064    
+mp-1245186-GGATi2O        P1          GGA       -12.275 -3.875    0.320    
+mp-1245066-GGATi2O        P1          GGA       -12.271 -3.875    0.323    
+mp-1245309-GGATi2O        P1          GGA       -12.271 -3.875    0.324    
+mp-1244955-GGATi2O        P1          GGA       -12.258 -3.875    0.336    
+mp-1245206-GGATi2O        P1          GGA       -12.252 -3.875    0.343    
+mp-458-R2SCANTi2O3       R-3c        R2SCAN    -11.914 0.000     0.000    
+mp-1188323-R2SCANTi2O3       Pnma        R2SCAN    -11.913 0.000     0.002    
+mp-776456-R2SCANTi2O3       P2_1/m      R2SCAN    -11.867 0.000     0.048    
+mp-776655-R2SCANTi2O3       P-31c       R2SCAN    -11.830 0.000     0.085    
+mp-1101295-R2SCANTi2O3       P2_1/m      R2SCAN    -11.797 0.000     0.117    
+mp-1046793-GGATi2O3       Cmcm        GGA       -11.784 -2.896    0.130    
+mp-1179268-GGATi2O3       C2/c        GGA       -11.536 -2.896    0.378    
+mp-656850-GGATi2O7       P-1         GGA       -9.232  -1.789    0.494    
+mp-2591-R2SCANTi3O        P-31c       R2SCAN    -12.719 0.000     0.000    
+mp-557812-R2SCANTi3O        P312        R2SCAN    -12.714 0.000     0.004    
+mp-554032-GGATi3O        P6_3/mcm    GGA       -12.611 -4.162    0.108    
+mp-1245140-GGATi3O        P1          GGA       -12.436 -4.162    0.283    
+mp-1245176-GGATi3O        P1          GGA       -12.428 -4.162    0.291    
+mp-1244956-GGATi3O        P1          GGA       -12.368 -4.162    0.351    
+mp-978968-R2SCANTi3O2       R-3c        R2SCAN    -12.404 0.000     0.053    
+mp-1217157-R2SCANTi3O4       I4/mmm      R2SCAN    -11.968 0.000     0.042    
+mp-755875-R2SCANTi3O4       Cmmm        R2SCAN    -11.927 0.000     0.083    
+mp-8057-R2SCANTi3O5       Cmcm        R2SCAN    -11.801 0.000     0.006    
+mp-556754-R2SCANTi3O5       Cc          R2SCAN    -11.799 0.000     0.008    
+mp-1147-R2SCANTi3O5       C2/m        R2SCAN    -11.799 0.000     0.008    
+mp-556480-R2SCANTi3O5       C2/m        R2SCAN    -11.793 0.000     0.014    
+mp-1245051-GGATi3O5       P1          GGA       -11.614 -2.803    0.193    
+mp-1245086-GGATi3O5       P1          GGA       -11.613 -2.803    0.194    
+mp-1245135-GGATi3O5       P1          GGA       -11.612 -2.803    0.195    
+mp-1245292-GGATi3O5       P1          GGA       -11.608 -2.803    0.199    
+mp-1245031-GGATi3O5       P1          GGA       -11.597 -2.803    0.210    
+mp-1179358-GGATi3O7       C2/m        GGA       -10.806 -2.541    0.238    
+mp-1105338-GGATi3O7       C2/m        GGA       -10.778 -2.541    0.266    
+mp-1205462-GGATi3O7       C2/m        GGA       -10.584 -2.173    0.460    
+mp-1217105-GGATi3O8       P-4m2       GGA       -10.209 -2.465    0.372    
+mp-1217135-R2SCANTi4O3       I4/mmm      R2SCAN    -12.272 0.000     0.125    
+mp-10734-R2SCANTi4O5       I4/m        R2SCAN    -12.007 0.000     0.056    
+mp-12205-R2SCANTi4O7       P-1         R2SCAN    -11.758 0.000     0.000    
+mp-12205-GGATi4O7       P-1         GGA       -11.754 -2.763    0.005    
+mp-778663-GGATi4O7       P-1         GGA       -11.668 -2.763    0.091    
+mp-1045759-GGATi5O7       Cmcm        GGA       -11.815 -2.957    0.155    
+mp-759920-R2SCANTi5O8       P1          R2SCAN    -11.833 0.000     0.016    
+mp-748-R2SCANTi5O9       P-1         R2SCAN    -11.730 0.000     0.000    
+mp-554098-R2SCANTi6O        P-31c       R2SCAN    -12.827 0.000     0.000    
+mp-882-R2SCANTi6O        P-31m       R2SCAN    -12.815 0.000     0.012    
+mp-882-GGA  Ti6O        P-31m       GGA       -12.815 -4.534    0.012    
+mp-30524-R2SCANTi6O11      P-1         R2SCAN    -11.708 0.000     0.000    
+mp-559964-R2SCANTi6O11      C2/m        R2SCAN    -11.695 0.000     0.014    
+mp-556724-R2SCANTi7O13      P-1         R2SCAN    -11.692 0.000     0.001    
+mp-779692-GGATi7O8       Cm          GGA       -12.022 -3.141    0.116    
+mp-752989-R2SCANTi8O13      R-3         R2SCAN    -11.800 0.000     0.032    
+mp-565700-R2SCANTi8O15      P-1         R2SCAN    -11.681 0.000     0.002    
+mp-32813-GGATi9O10      P-1         GGA       -11.965 -3.166    0.196    
+mp-1217149-GGATi9O10      C2/m        GGA       -11.916 -3.166    0.245    
+mp-1045643-GGATi9O13      C2/m        GGA       -11.804 -2.929    0.141    
+mp-27273-R2SCANTi9O17      P-1         R2SCAN    -11.671 0.000     0.002    
+mp-32544-GGATi9O8       P-1         GGA       -12.147 -3.371    0.162    
+mp-1071163-R2SCANTiO         P-62m       R2SCAN    -12.249 0.000     0.000    
+mp-1203-R2SCANTiO         C2/m        R2SCAN    -12.196 0.000     0.053    
+mp-755264-R2SCANTiO         P-6m2       R2SCAN    -12.168 0.000     0.081    
+mp-755300-GGATiO         Pm-3m       GGA       -12.136 -3.263    0.113    
+mp-754333-GGATiO         P6_3/mmc    GGA       -12.117 -3.263    0.132    
+mp-685151-GGATiO         I4/mmm      GGA       -12.067 -3.263    0.182    
+mp-673667-GGATiO         P-1         GGA       -12.053 -3.263    0.196    
+mp-2664-GGA TiO         Fm-3m       GGA       -11.976 -3.263    0.272    
+mp-1244944-GGATiO         P1          GGA       -11.947 -3.263    0.302    
+mp-1245141-GGATiO         P1          GGA       -11.937 -3.263    0.312    
+mp-1245294-GGATiO         P1          GGA       -11.933 -3.263    0.315    
+mp-1244926-GGATiO         P1          GGA       -11.924 -3.263    0.325    
+mp-1245324-GGATiO         P1          GGA       -11.914 -3.263    0.335    
+mp-390-R2SCANTiO2        I4_1/amd    R2SCAN    -11.608 0.000     0.000    
+mp-1840-R2SCANTiO2        Pbca        R2SCAN    -11.605 0.000     0.003    
+mp-1439-R2SCANTiO2        Pbcn        R2SCAN    -11.604 0.000     0.005    
+mp-554278-R2SCANTiO2        C2/m        R2SCAN    -11.602 0.000     0.006    
+mp-34688-GGATiO2        C2/c        GGA       -11.600 -2.634    0.008    
+mp-2657-R2SCANTiO2        P4_2/mnm    R2SCAN    -11.599 0.000     0.010    
+mp-2420244-GGATiO2        Pnma        GGA       -11.598 -2.634    0.010    
+mp-775938-R2SCANTiO2        Pbcn        R2SCAN    -11.596 0.000     0.012    
+mp-754769-R2SCANTiO2        Pnma        R2SCAN    -11.572 0.000     0.036    
+mp-2657-GGA TiO2        P4_2/mnm    GGA       -11.571 -2.634    0.037    
+mp-1041565-GGATiO2        Imma        GGA       -11.571 -2.634    0.037    
+mp-430-R2SCANTiO2        P2_1/c      R2SCAN    -11.569 0.000     0.039    
+mp-766454-R2SCANTiO2        P1          R2SCAN    -11.562 0.000     0.046    
+mp-1101022-R2SCANTiO2        I4/m        R2SCAN    -11.561 0.000     0.047    
+mp-777129-GGATiO2        P1          GGA       -11.561 -2.634    0.047    
+mp-9173-R2SCANTiO2        Pnma        R2SCAN    -11.551 0.000     0.057    
+mp-1400963-R2SCANTiO2        I4/m        R2SCAN    -11.543 0.000     0.065    
+mp-1201727-R2SCANTiO2        Pnma        R2SCAN    -11.542 0.000     0.067    
+mp-756655-R2SCANTiO2        Pnma        R2SCAN    -11.534 0.000     0.074    
+mp-754672-R2SCANTiO2        Pnma        R2SCAN    -11.528 0.000     0.080    
+mp-849533-GGATiO2        Pnma        GGA       -11.518 -2.634    0.090    
+mp-756587-GGATiO2        P6_3mc      GGA       -11.497 -2.634    0.112    
+mp-1190753-GGATiO2        Pbca        GGA       -11.491 -2.634    0.118    
+mp-1386640-GGATiO2        Cmcm        GGA       -11.462 -2.634    0.147    
+mp-553432-R2SCANTiO2        P3_121      R2SCAN    -11.459 0.000     0.150    
+mp-1341203-GGATiO2        Pmmn        GGA       -11.457 -2.634    0.151    
+mp-1426806-GGATiO2        R-3m        GGA       -11.457 -2.634    0.152    
+mp-25433-GGATiO2        R-3m        GGA       -11.456 -2.634    0.153    
+mp-1245098-GGATiO2        P1          GGA       -11.448 -2.634    0.160    
+mp-1245308-GGATiO2        P1          GGA       -11.445 -2.634    0.164    
+mp-1380335-GGATiO2        P3m1        GGA       -11.437 -2.634    0.171    
+mp-1044853-GGATiO2        P3m1        GGA       -11.437 -2.634    0.171    
+mp-1245134-GGATiO2        P1          GGA       -11.435 -2.634    0.173    
+mp-25262-GGATiO2        Fd-3m       GGA       -11.430 -2.634    0.179    
+mp-1350429-GGATiO2        Cm          GGA       -11.429 -2.634    0.179    
+mp-1408285-GGATiO2        R3m         GGA       -11.427 -2.634    0.181    
+mp-1245321-GGATiO2        P1          GGA       -11.425 -2.634    0.183    
+mp-1102591-GGATiO2        Pa-3        GGA       -11.358 -2.634    0.250    
+mp-1102255-GGATiO2        Pnma        GGA       -11.317 -2.634    0.291    
+mp-1008677-GGATiO2        Fm-3m       GGA       -11.306 -2.634    0.302    
+mp-636827-GGATiO2        Pmm2        GGA       -11.306 -2.634    0.302    
+mp-655656-GGATiO2        Cmm2        GGA       -11.303 -2.634    0.305    
+mp-1079207-GGATiO2        P-62m       GGA       -11.282 -2.634    0.326    
+mp-572822-GGATiO2        P2_1/m      GGA       -11.082 -2.634    0.526    
+mp-1445035-GGATiO2        P6_3/mmc    GGA       -8.870  -2.634    2.738    
+TiO fraction = 0.07
+Processing 230 GGA(+U) and 32 R2SCAN entries...
+  Processed 230 compatible GGA(+U) entries with MaterialsProject2020Compatibility
+  Entries belong to the {'V', 'O'} chemical system
+  Generating mixing state data from provided entries.
+  Entries contain R2SCAN calculations for 4 of 6 GGA(+U) hull entries.
+  R2SCAN energies will be adjusted to the GGA(+U) scale
+  The energy above hull for R2SCAN materials at compositions with R2SCAN hull entries will be preserved. For other compositions, Energies of R2SCAN materials will be set equal to those of matching GGA(+U) materials
+  Discarding GGA+U entry mp-776152-GGA+U for V8 O20 because there is a matching R2SCAN material
+  Discarding GGA+U entry mp-27151-GGA+U for V14 O26 because there is a matching R2SCAN material
+  Discarding GGA+U entry mp-25279-GGA+U for V4 O10 because it is a GGA(+U) ground state that matches a R2SCAN material.
+  Discarding GGA+U entry mp-777469-GGA+U for V4 O8 because there is a matching R2SCAN material
+  Discarding GGA+U entry mp-18937-GGA+U for V4 O6 because there is a matching R2SCAN material
+  Discarding GGA entry mp-146-GGA for V1 because it is a GGA(+U) ground state that matches a R2SCAN material.
+  Discarding GGA+U entry mp-25288-GGA+U for V8 O20 because there is a matching R2SCAN material
+  Discarding GGA+U entry mp-555597-GGA+U for V8 O14 because there is a matching R2SCAN material
+  Discarding GGA+U entry mp-541404-GGA+U for V4 O8 because there is a matching R2SCAN material
+  Discarding GGA entry mp-610917-GGA for O2 because there is a matching R2SCAN material
+  Discarding GGA+U entry mp-1271755-GGA+U for V4 O8 because there is a matching R2SCAN material
+  Discarding GGA+U entry mp-25207-GGA+U for V6 O15 because there is a matching R2SCAN material
+  Discarding GGA entry mp-723285-GGA for O8 because it is a GGA(+U) ground state that matches a R2SCAN material.
+  Discarding GGA+U entry mp-25233-GGA+U for V4 O10 because there is a matching R2SCAN material
+  Discarding GGA entry mp-1009490-GGA for O2 because there is a matching R2SCAN material
+  Discarding GGA entry mp-1066100-GGA for O4 because there is a matching R2SCAN material
+  Discarding GGA+U entry mp-849511-GGA+U for V5 O10 because there is a matching R2SCAN material
+  Discarding GGA+U entry mp-756395-GGA+U for V9 O21 because there is a matching R2SCAN material
+  Discarding GGA+U entry mp-30518-GGA+U for V12 O22 because there is a matching R2SCAN material
+  Discarding GGA+U entry mp-1094031-GGA+U for V8 O16 because there is a matching R2SCAN material
+  Discarding GGA+U entry mp-510568-GGA+U for V4 O10 because there is a matching R2SCAN material
+  Discarding GGA+U entry mp-754585-GGA+U for V4 O10 because there is a matching R2SCAN material
+  Discarding GGA+U entry mp-19094-GGA+U for V2 O4 because it is a GGA(+U) ground state that matches a R2SCAN material.
+  Discarding GGA+U entry mp-1190609-GGA+U for V8 O16 because there is a matching R2SCAN material
+  Discarding GGA+U entry mp-1287184-GGA+U for V4 O4 because there is a matching R2SCAN material
+  Discarding R2SCAN entry mp-542334-R2SCAN for V10 O18 because there is no matching GGA(+U) entry and no R2SCAN ground state at this composition.
+  Discarding R2SCAN entry mp-754451-R2SCAN for V5 O12 because there is no matching GGA(+U) entry and no R2SCAN ground state at this composition.
+  Discarding R2SCAN entry mp-30987-R2SCAN for V12 O20 because there is no matching GGA(+U) entry and no R2SCAN ground state at this composition.
+  Discarding R2SCAN entry mp-19184-R2SCAN for V2 O2 because there is no matching GGA(+U) entry and no R2SCAN ground state at this composition.
+  Discarding R2SCAN entry mp-18896-R2SCAN for V12 O26 because there is no matching GGA(+U) entry and no R2SCAN ground state at this composition.
+
+Processing complete. Mixed entries contain 199 GGA(+U) and 26 R2SCAN entries.
+
+entry_id    formula     spacegroup  run_type  eV/atom corr/atom e_above_hull
+mp-611836-R2SCANO2          C2/m        R2SCAN    -4.952  1.008     0.000    
+mp-610917-R2SCANO2          R-3m        R2SCAN    -4.947  1.008     0.005    
+mp-723285-R2SCANO2          P4_12_12    R2SCAN    -4.947  1.008     0.006    
+mp-1087546-GGAO2          C2/c        GGA       -4.930  0.000     0.022    
+mp-1180036-GGAO2          P2/c        GGA       -4.918  0.000     0.034    
+mp-607540-GGAO2          Fmmm        GGA       -4.827  0.000     0.125    
+mp-1066100-R2SCANO2          P6_3/mmc    R2SCAN    -4.684  1.008     0.269    
+mp-1180064-GGAO2          P1          GGA       -4.561  0.000     0.391    
+mp-560602-GGAO2          Pbca        GGA       -4.537  0.000     0.416    
+mp-1180008-GGAO2          P1          GGA       -4.528  0.000     0.424    
+mp-734188-GGAO2          P4_1        GGA       -4.513  0.000     0.439    
+mp-2421172-GGAO2          R3c         GGA       -4.032  0.000     0.921    
+mp-1056831-GGAO2          P2/m        GGA       -3.637  0.000     1.315    
+mp-1056059-GGAO2          P4/mmm      GGA       -3.390  0.000     1.562    
+mp-1058623-GGAO2          Cmcm        GGA       -3.377  0.000     1.575    
+mp-1057818-GGAO2          Fd-3m       GGA       -3.067  0.000     1.885    
+mp-146-R2SCANV           Im-3m       R2SCAN    -9.084  5.006     0.000    
+mp-8632-GGA V           Fm-3m       GGA       -8.837  0.000     0.247    
+mp-2647074-GGAV           P6_3/mmc    GGA       -8.830  0.000     0.254    
+mp-705541-GGA+UV10O9       P-1         GGA+U     -8.913  -1.220    0.212    
+mp-773019-GGA+UV12O29      C2/m        GGA+U     -8.442  -0.983    0.039    
+mp-30065-GGA+UV13O16      I4_1/amd    GGA+U     -8.456  -1.141    0.677    
+mp-30064-GGA+UV16O3       I4/mmm      GGA+U     -7.702  -1.540    1.396    
+mp-685164-GGA+UV25O32      C2          GGA+U     -9.056  -1.131    0.078    
+mp-21579-GGA+UV2O3        Ia-3        GGA+U     -9.137  -1.092    0.000    
+mp-18937-R2SCANV2O3        C2/c        R2SCAN    -9.128  2.731     0.009    
+mp-715514-GGA+UV2O3        P-1         GGA+U     -9.126  -1.092    0.011    
+mp-780654-GGA+UV2O3        Pbca        GGA+U     -9.106  -1.092    0.031    
+mp-776630-GGA+UV2O3        P2_1/m      GGA+U     -9.076  -1.092    0.061    
+mp-777698-GGA+UV2O3        C2/m        GGA+U     -9.053  -1.092    0.083    
+mp-1272087-GGA+UV2O3        P1          GGA+U     -9.051  -1.092    0.086    
+mp-776688-GGA+UV2O3        P2_1/c      GGA+U     -9.042  -1.092    0.095    
+mp-1043388-GGA+UV2O3        Cmcm        GGA+U     -8.901  -1.092    0.236    
+mp-1178873-GGA+UV2O3        C2/c        GGA+U     -8.891  -1.092    0.246    
+mp-1178852-GGA+UV2O3        C2/c        GGA+U     -8.828  -1.092    0.309    
+mp-553955-GGA+UV2O3        Cc          GGA+U     -8.434  -1.092    0.703    
+mp-552113-GGA+UV2O3        R-3c        GGA+U     -8.402  -1.092    0.735    
+mp-796380-GGA+UV2O3        P1          GGA+U     -6.223  -0.777    2.914    
+mp-25279-R2SCANV2O5        Pmmn        R2SCAN    -8.419  2.289     0.000    
+mp-776152-R2SCANV2O5        Pnma        R2SCAN    -8.414  2.289     0.005    
+mp-25280-GGA+UV2O5        Pnma        GGA+U     -8.410  -0.976    0.009    
+mp-754670-GGA+UV2O5        Pmmn        GGA+U     -8.410  -0.976    0.009    
+mp-510568-R2SCANV2O5        P2_1/m      R2SCAN    -8.408  2.289     0.011    
+mp-755235-GGA+UV2O5        Pnma        GGA+U     -8.408  -0.976    0.011    
+mp-25288-R2SCANV2O5        Pnma        R2SCAN    -8.405  2.289     0.014    
+mp-25207-R2SCANV2O5        C2/m        R2SCAN    -8.394  2.289     0.025    
+mp-831269-GGA+UV2O5        P2/c        GGA+U     -8.393  -0.976    0.026    
+mp-25233-R2SCANV2O5        Cmcm        R2SCAN    -8.386  2.289     0.033    
+mp-776041-GGA+UV2O5        P2_1/c      GGA+U     -8.385  -0.976    0.034    
+mp-729713-GGA+UV2O5        P-1         GGA+U     -8.379  -0.976    0.040    
+mp-754585-R2SCANV2O5        Fdd2        R2SCAN    -8.371  2.289     0.048    
+mp-1410508-GGA+UV2O5        Pbam        GGA+U     -8.363  -0.976    0.056    
+mp-542844-GGA+UV2O5        C2/c        GGA+U     -8.358  -0.976    0.061    
+mp-1245120-GGA+UV2O5        P1          GGA+U     -8.351  -0.976    0.068    
+mp-1245162-GGA+UV2O5        P1          GGA+U     -8.332  -0.976    0.087    
+mp-1245156-GGA+UV2O5        P1          GGA+U     -8.329  -0.976    0.090    
+mp-1245000-GGA+UV2O5        P1          GGA+U     -8.314  -0.976    0.105    
+mp-1245137-GGA+UV2O5        P1          GGA+U     -8.311  -0.976    0.108    
+mp-1244889-GGA+UV2O5        P1          GGA+U     -8.311  -0.976    0.108    
+mp-1244996-GGA+UV2O5        P1          GGA+U     -8.301  -0.976    0.118    
+mp-1245219-GGA+UV2O5        P1          GGA+U     -8.293  -0.976    0.126    
+mp-720166-GGA+UV2O5        C2/m        GGA+U     -8.291  -0.976    0.128    
+mp-624689-GGA+UV2O5        Pmmn        GGA+U     -8.285  -0.976    0.133    
+mp-1245315-GGA+UV2O5        P1          GGA+U     -7.944  -0.601    0.474    
+mp-1245221-GGA+UV2O5        P1          GGA+U     -7.939  -0.601    0.480    
+mp-1244920-GGA+UV2O5        P1          GGA+U     -7.938  -0.601    0.481    
+mp-1245101-GGA+UV2O5        P1          GGA+U     -7.936  -0.601    0.483    
+mp-1245160-GGA+UV2O5        P1          GGA+U     -7.935  -0.601    0.484    
+mp-1244904-GGA+UV2O5        P1          GGA+U     -7.935  -0.601    0.484    
+mp-1245174-GGA+UV2O5        P1          GGA+U     -7.931  -0.601    0.488    
+mp-1245275-GGA+UV2O5        P1          GGA+U     -7.928  -0.601    0.491    
+mp-1245097-GGA+UV2O5        P1          GGA+U     -7.928  -0.601    0.491    
+mp-1244925-GGA+UV2O5        P1          GGA+U     -7.921  -0.601    0.498    
+mp-1245284-GGA+UV2O5        P1          GGA+U     -7.916  -0.601    0.503    
+mp-1245049-GGA+UV2O5        P1          GGA+U     -7.914  -0.601    0.504    
+mp-1245142-GGA+UV2O5        P1          GGA+U     -7.914  -0.601    0.505    
+mp-1245240-GGA+UV2O5        P1          GGA+U     -7.912  -0.601    0.507    
+mp-1245096-GGA+UV2O5        P1          GGA+U     -7.911  -0.601    0.508    
+mp-1245005-GGA+UV2O5        P1          GGA+U     -7.908  -0.601    0.510    
+mp-1244978-GGA+UV2O5        P1          GGA+U     -7.908  -0.601    0.511    
+mp-1245171-GGA+UV2O5        P1          GGA+U     -7.908  -0.601    0.511    
+mp-1245325-GGA+UV2O5        P1          GGA+U     -7.907  -0.601    0.512    
+mp-1245058-GGA+UV2O5        P1          GGA+U     -7.906  -0.601    0.513    
+mp-1244961-GGA+UV2O5        P1          GGA+U     -7.905  -0.601    0.514    
+mp-1245312-GGA+UV2O5        P1          GGA+U     -7.901  -0.601    0.518    
+mp-1245153-GGA+UV2O5        P1          GGA+U     -7.901  -0.601    0.518    
+mp-1245198-GGA+UV2O5        P1          GGA+U     -7.900  -0.601    0.519    
+mp-1245118-GGA+UV2O5        P1          GGA+U     -7.900  -0.601    0.519    
+mp-1244942-GGA+UV2O5        P1          GGA+U     -7.899  -0.601    0.519    
+mp-1245272-GGA+UV2O5        P1          GGA+U     -7.898  -0.601    0.520    
+mp-1245040-GGA+UV2O5        P1          GGA+U     -7.894  -0.601    0.524    
+mp-1244985-GGA+UV2O5        P1          GGA+U     -7.894  -0.601    0.525    
+mp-1244901-GGA+UV2O5        P1          GGA+U     -7.890  -0.601    0.529    
+mp-1245061-GGA+UV2O5        P1          GGA+U     -7.890  -0.601    0.529    
+mp-1245283-GGA+UV2O5        P1          GGA+U     -7.881  -0.601    0.537    
+mp-1216596-GGA+UV2O5        Immm        GGA+U     -7.779  -0.976    0.640    
+mp-818205-GGA+UV3O10       P4bm        GGA+U     -7.335  -0.921    0.417    
+mp-1272338-GGA+UV3O5        P-1         GGA+U     -9.021  -1.067    0.008    
+mp-714911-GGA+UV3O5        Cc          GGA+U     -9.019  -1.067    0.010    
+mp-622497-GGA+UV3O5        P2          GGA+U     -9.017  -1.067    0.012    
+mp-1274098-GGA+UV3O5        C2          GGA+U     -8.998  -1.067    0.031    
+mp-30987-GGA+UV3O5        C2/c        GGA+U     -8.992  -1.067    0.037    
+mp-622640-GGA+UV3O7        C2/c        GGA+U     -8.527  -0.991    0.021    
+mp-756395-R2SCANV3O7        I4/mmm      R2SCAN    -8.511  2.389     0.036    
+mp-1379199-GGA+UV3O7        Pnma        GGA+U     -8.485  -0.991    0.063    
+mp-764115-GGA+UV3O7        P31c        GGA+U     -8.453  -0.991    0.095    
+mp-760992-GGA+UV3O7        P-31c       GGA+U     -8.417  -0.991    0.131    
+mp-796383-GGA+UV3O8        Pnma        GGA+U     -8.133  -0.963    0.128    
+mp-1178828-GGA+UV3O8        Cc          GGA+U     -8.086  -0.963    0.175    
+mp-796240-GGA+UV3O8        P1          GGA+U     -8.086  -0.963    0.175    
+mp-1178827-GGA+UV3O8        C2/m        GGA+U     -8.055  -0.963    0.206    
+mp-1179363-GGA+UV3O8        C2/m        GGA+U     -7.639  -0.581    0.622    
+mp-1178850-GGA+UV3O8        C2/m        GGA+U     -7.336  -0.581    0.925    
+mp-1179073-GGA+UV3O8        Cm          GGA+U     -7.089  -0.581    1.172    
+mp-555597-R2SCANV4O7        P-1         R2SCAN    -8.943  2.646     0.037    
+mp-2506981-GGA+UV4O7        P-1         GGA+U     -8.803  -1.055    0.177    
+mp-1178988-GGA+UV4O7        P-1         GGA+U     -8.790  -1.055    0.190    
+mp-715493-GGA+UV4O7        P-1         GGA+U     -8.767  -1.055    0.213    
+mp-715457-GGA+UV4O7        P-1         GGA+U     -8.765  -1.055    0.215    
+mp-21018-GGA+UV4O7        P-1         GGA+U     -8.760  -1.055    0.220    
+mp-1178831-GGA+UV4O7        P-1         GGA+U     -8.564  -1.055    0.416    
+mp-1179536-GGA+UV4O7        P-1         GGA+U     -8.464  -0.914    0.516    
+mp-27412-GGA+UV4O9        Pnma        GGA+U     -8.573  -0.999    0.045    
+mp-715664-GGA+UV4O9        Cmcm        GGA+U     -8.520  -0.999    0.097    
+mp-1370177-GGA+UV4O9        P4/n        GGA+U     -8.477  -0.999    0.141    
+mp-778252-GGA+UV5O12       P2_1/c      GGA+U     -8.485  -0.985    0.010    
+mp-754451-GGA+UV5O12       C2          GGA+U     -8.455  -0.985    0.040    
+mp-777580-GGA+UV5O12       P1          GGA+U     -8.417  -0.985    0.078    
+mp-2214725-GGA+UV5O12       P1          GGA+U     -8.399  -0.985    0.095    
+mp-772530-GGA+UV5O12       C2          GGA+U     -8.397  -0.985    0.098    
+mp-1204545-GGA+UV5O14       P-1         GGA+U     -7.941  -0.954    0.204    
+mp-1046039-GGA+UV5O7        Cmcm        GGA+U     -8.954  -1.109    0.181    
+mp-542334-GGA+UV5O9        P-1         GGA+U     -8.922  -1.049    0.030    
+mp-714932-GGA+UV5O9        P1          GGA+U     -8.912  -1.049    0.039    
+mp-30518-R2SCANV6O11       P-1         R2SCAN    -8.894  2.596     0.039    
+mp-849537-GGA+UV6O11       Cmcm        GGA+U     -8.860  -1.045    0.074    
+mp-870306-GGA+UV6O13       P2_1/m      GGA+U     -8.648  -1.007    0.043    
+mp-714921-GGA+UV6O13       P2_1        GGA+U     -8.647  -1.007    0.043    
+mp-1201338-GGA+UV6O13       P2_1/c      GGA+U     -8.646  -1.007    0.044    
+mp-18896-GGA+UV6O13       C2/m        GGA+U     -8.646  -1.007    0.045    
+mp-1196958-GGA+UV6O13       Pc          GGA+U     -8.646  -1.007    0.045    
+mp-19457-GGA+UV6O13       Pc          GGA+U     -8.636  -1.007    0.054    
+mp-715617-GGA+UV6O13       Cmcm        GGA+U     -8.628  -1.007    0.063    
+mp-554064-GGA+UV6O13       Fmmm        GGA+U     -8.620  -1.007    0.070    
+mp-27151-R2SCANV7O13       P-1         R2SCAN    -8.876  2.586     0.045    
+mp-715598-GGA+UV7O13       P1          GGA+U     -8.873  -1.042    0.049    
+mp-1100921-GGA+UV7O3        P-1         GGA+U     -8.287  -1.396    0.824    
+mp-542910-GGA+UV7O3        C2/m        GGA+U     -8.279  -1.396    0.831    
+mp-1205504-GGA+UV7O4        C2/m        GGA+U     -8.468  -1.332    0.648    
+mp-714972-GGA+UV8O         P4_2/mnm    GGA+U     -7.716  -1.587    1.378    
+mp-556566-GGA+UV8O15       P-1         GGA+U     -8.870  -1.039    0.042    
+mp-1045898-GGA+UV9O13       C2/m        GGA+U     -8.916  -1.101    0.220    
+mp-716723-GGA+UV9O17       P1          GGA+U     -8.850  -1.038    0.054    
+mp-559485-GGA+UV9O17       P1          GGA+U     -8.847  -1.038    0.057    
+mp-1100929-GGA+UV9O20       P1          GGA+U     -7.795  -0.639    0.847    
+mp-849581-GGA+UV9O22       P2_1/m      GGA+U     -8.421  -0.981    0.039    
+mp-1101328-GGA+UV9O22       P2_1        GGA+U     -8.373  -0.981    0.088    
+mp-776583-GGA+UV9O22       P1          GGA+U     -8.366  -0.981    0.094    
+mp-19184-GGA+UVO          Pmmn        GGA+U     -9.106  -1.194    0.022    
+mp-714885-GGA+UVO          R-3m        GGA+U     -9.106  -1.194    0.022    
+mp-1287184-R2SCANVO          C2/m        R2SCAN    -9.101  3.139     0.027    
+mp-1273331-GGA+UVO          P2_1/m      GGA+U     -9.065  -1.194    0.063    
+mp-541404-R2SCANVO2         C2/m        R2SCAN    -8.849  2.445     0.000    
+mp-1094031-R2SCANVO2         Pbca        R2SCAN    -8.837  2.445     0.012    
+mp-20593-R2SCANVO2         I4/mmm      R2SCAN    -8.832  2.445     0.017    
+mp-19094-R2SCANVO2         P4_2/mnm    R2SCAN    -8.807  2.445     0.042    
+mp-1102963-GGA+UVO2         P2_1/c      GGA+U     -8.806  -1.025    0.043    
+mp-547074-GGA+UVO2         Pnnm        GGA+U     -8.805  -1.025    0.044    
+mp-777469-R2SCANVO2         Cmcm        R2SCAN    -8.801  2.445     0.048    
+mp-849511-R2SCANVO2         P-1         R2SCAN    -8.785  2.445     0.064    
+mp-1271755-R2SCANVO2         C2/m        R2SCAN    -8.782  2.445     0.067    
+mp-1100908-GGA+UVO2         C2/m        GGA+U     -8.782  -1.025    0.067    
+mp-777479-GGA+UVO2         Pnma        GGA+U     -8.781  -1.025    0.068    
+mp-1021522-GGA+UVO2         P2_1/c      GGA+U     -8.774  -1.025    0.075    
+mp-1190609-R2SCANVO2         Pnma        R2SCAN    -8.770  2.445     0.080    
+mp-1178787-GGA+UVO2         P4/ncc      GGA+U     -8.766  -1.025    0.083    
+mp-18248-GGA+UVO2         Fmmm        GGA+U     -8.760  -1.025    0.089    
+mp-20974-GGA+UVO2         Pnma        GGA+U     -8.752  -1.025    0.098    
+mp-715517-GGA+UVO2         P1          GGA+U     -8.751  -1.025    0.098    
+mp-715035-GGA+UVO2         Pma2        GGA+U     -8.749  -1.025    0.100    
+mp-1272932-GGA+UVO2         P1          GGA+U     -8.748  -1.025    0.101    
+mp-1273559-GGA+UVO2         P1          GGA+U     -8.747  -1.025    0.102    
+mp-2506972-GGA+UVO2         P2_1/c      GGA+U     -8.747  -1.025    0.102    
+mp-1277428-GGA+UVO2         P1          GGA+U     -8.747  -1.025    0.102    
+mp-755411-GGA+UVO2         C2/m        GGA+U     -8.744  -1.025    0.105    
+mp-1271757-GGA+UVO2         P-1         GGA+U     -8.744  -1.025    0.105    
+mp-1273390-GGA+UVO2         P1          GGA+U     -8.741  -1.025    0.108    
+mp-1277117-GGA+UVO2         P1          GGA+U     -8.739  -1.025    0.110    
+mp-1285335-GGA+UVO2         Pmn2_1      GGA+U     -8.736  -1.025    0.113    
+mp-1289705-GGA+UVO2         P1          GGA+U     -8.735  -1.025    0.114    
+mp-715553-GGA+UVO2         P1          GGA+U     -8.735  -1.025    0.114    
+mp-1274771-GGA+UVO2         Pc          GGA+U     -8.735  -1.025    0.114    
+mp-1284510-GGA+UVO2         Pmc2_1      GGA+U     -8.732  -1.025    0.117    
+mp-20593-GGA+UVO2         I4/m        GGA+U     -8.723  -1.025    0.126    
+mp-1314858-GGA+UVO2         C2          GGA+U     -8.719  -1.025    0.130    
+mp-1271792-GGA+UVO2         C2/c        GGA+U     -8.715  -1.025    0.134    
+mp-1361684-GGA+UVO2         P1          GGA+U     -8.673  -1.025    0.177    
+mp-1446045-GGA+UVO2         P2_1/m      GGA+U     -8.670  -1.025    0.179    
+mp-714944-GGA+UVO2         C2/m        GGA+U     -8.669  -1.025    0.180    
+mp-1353031-GGA+UVO2         P1          GGA+U     -8.667  -1.025    0.182    
+mp-2214803-GGA+UVO2         P2_1/m      GGA+U     -8.663  -1.025    0.186    
+mp-1047618-GGA+UVO2         Cmcm        GGA+U     -8.653  -1.025    0.196    
+mp-1342978-GGA+UVO2         Pmmn        GGA+U     -8.649  -1.025    0.200    
+mp-714960-GGA+UVO2         I4_1/a      GGA+U     -8.648  -1.025    0.201    
+mp-1780502-GGA+UVO2         P-1         GGA+U     -8.645  -1.025    0.205    
+mp-25283-GGA+UVO2         I4_1/a      GGA+U     -8.644  -1.025    0.205    
+mp-1040910-GGA+UVO2         P1          GGA+U     -8.644  -1.025    0.205    
+mp-2214678-GGA+UVO2         Cmc2_1      GGA+U     -8.609  -1.025    0.240    
+mp-1412582-GGA+UVO2         R3m         GGA+U     -8.592  -1.025    0.257    
+mp-1245059-GGA+UVO2         P1          GGA+U     -8.592  -1.025    0.258    
+mp-1245012-GGA+UVO2         P1          GGA+U     -8.571  -1.025    0.278    
+mp-1420871-GGA+UVO2         R-3m        GGA+U     -8.541  -1.025    0.308    
+mp-25199-GGA+UVO2         R-3m        GGA+U     -8.541  -1.025    0.308    
+mp-1393040-GGA+UVO2         P6_3/mmc    GGA+U     -8.540  -1.025    0.309    
+mp-634430-GGA+UVO2         C2/c        GGA+U     -8.429  -1.025    0.420    
+mp-714931-GGA+UVO2         P-1         GGA+U     -8.320  -1.025    0.529    
+mp-559445-GGA+UVO2         P2/m        GGA+U     -8.310  -1.025    0.539    
+mp-636746-GGA+UVO2         P-1         GGA+U     -8.309  -1.025    0.540    
+mp-566801-GGA+UVO2         P2/m        GGA+U     -8.303  -1.025    0.546    
+mp-1245047-GGA+UVO2         P1          GGA+U     -8.232  -0.674    0.617    
+mp-1396942-GGA+UVO2         P6_3/mmc    GGA+U     -6.516  -1.025    2.334    
+mp-1207792-GGA+UVO3         Imma        GGA+U     -7.674  -0.940    0.311    
+mp-826024-GGA+UVO3         C2/m        GGA+U     -7.645  -0.546    0.340    
+mp-1178867-GGA+UVO3         P2_1/m      GGA+U     -7.517  -0.546    0.468    
+mp-1208572-GGA+UVO3         P4_2/ncm    GGA+U     -6.995  -0.546    0.991    
+VO fraction = 0.00
+Processing 94 GGA(+U) and 31 R2SCAN entries...
+  Processed 94 compatible GGA(+U) entries with MaterialsProject2020Compatibility
+  Entries belong to the {'Mn', 'O'} chemical system
+  Generating mixing state data from provided entries.
+  Entries contain R2SCAN calculations for 5 of 6 GGA(+U) hull entries.
+  R2SCAN energies will be adjusted to the GGA(+U) scale
+  The energy above hull for R2SCAN materials at compositions with R2SCAN hull entries will be preserved. For other compositions, Energies of R2SCAN materials will be set equal to those of matching GGA(+U) materials
+  Discarding GGA+U entry mp-25223-GGA+U for Mn1 O2 because there is a matching R2SCAN material
+  Discarding GGA+U entry mp-755489-GGA+U for Mn8 O16 because there is a matching R2SCAN material
+  Discarding GGA+U entry mp-25275-GGA+U for Mn4 O8 because there is a matching R2SCAN material
+  Discarding GGA+U entry mp-754430-GGA+U for Mn7 O12 because there is a matching R2SCAN material
+  Discarding GGA+U entry mp-18759-GGA+U for Mn6 O8 because it is a GGA(+U) ground state that matches a R2SCAN material.
+  Discarding GGA entry mp-35-GGA for Mn29 because it is a GGA(+U) ground state that matches a R2SCAN material.
+  Discarding GGA+U entry mp-18922-GGA+U for Mn5 O8 because there is a matching R2SCAN material
+  Discarding GGA+U entry mp-510604-GGA+U for Mn16 O24 because there is a matching R2SCAN material
+  Discarding GGA+U entry mp-1271850-GGA+U for Mn4 O8 because there is a matching R2SCAN material
+  Discarding GGA entry mp-610917-GGA for O2 because there is a matching R2SCAN material
+  Discarding GGA entry mp-8634-GGA for Mn1 because there is a matching R2SCAN material
+  Discarding GGA+U entry mp-755671-GGA+U for Mn2 O4 because there is a matching R2SCAN material
+  Discarding GGA+U entry mp-796336-GGA+U for Mn6 O12 because there is a matching R2SCAN material
+  Discarding GGA entry mp-723285-GGA for O8 because it is a GGA(+U) ground state that matches a R2SCAN material.
+  Discarding GGA+U entry mp-19326-GGA+U for Mn4 O8 because there is a matching R2SCAN material
+  Discarding GGA entry mp-1055908-GGA for Mn1 because there is a matching R2SCAN material
+  Discarding GGA+U entry mp-25424-GGA+U for Mn1 O2 because there is a matching R2SCAN material
+  Discarding GGA entry mp-1009490-GGA for O2 because there is a matching R2SCAN material
+  Discarding GGA entry mp-1066100-GGA for O4 because there is a matching R2SCAN material
+  Discarding GGA+U entry mp-1232659-GGA+U for Mn4 O4 because there is a matching R2SCAN material
+  Discarding GGA+U entry mp-19395-GGA+U for Mn4 O8 because it is a GGA(+U) ground state that matches a R2SCAN material.
+  Discarding GGA+U entry mp-1354190-GGA+U for Mn8 O16 because there is a matching R2SCAN material
+  Discarding GGA+U entry mp-19006-GGA+U for Mn2 O2 because it is a GGA(+U) ground state that matches a R2SCAN material.
+  Discarding GGA+U entry mp-796340-GGA+U for Mn6 O12 because there is a matching R2SCAN material
+  Discarding GGA+U entry mp-1272141-GGA+U for Mn1 O2 because there is a matching R2SCAN material
+  Discarding GGA entry mp-542909-GGA for Mn20 because there is a matching R2SCAN material
+
+Processing complete. Mixed entries contain 63 GGA(+U) and 30 R2SCAN entries.
+
+entry_id    formula     spacegroup  run_type  eV/atom corr/atom e_above_hull
+mp-35-R2SCANMn          I-43m       R2SCAN    -9.162  5.521     0.000    
+mp-542909-R2SCANMn          P4_132      R2SCAN    -9.122  5.521     0.040    
+mp-2647025-GGAMn          P6_3/mmc    GGA       -9.109  0.000     0.053    
+mp-1055908-R2SCANMn          Im-3m       R2SCAN    -8.792  5.521     0.370    
+mp-8634-R2SCANMn          Fm-3m       R2SCAN    -8.741  5.521     0.421    
+mp-1057139-GGAMn          I4_1/amd    GGA       -8.504  0.000     0.658    
+mp-1191484-GGAMn          F-43m       GGA       -8.355  0.000     0.807    
+mp-776603-GGA+UMn15O32     C2/m        GGA+U     -7.924  -1.000    0.114    
+mp-867971-GGA+UMn15O32     C2/m        GGA+U     -7.920  -1.000    0.118    
+mp-1222372-GGA+UMn20O43     P-1         GGA+U     -7.892  -0.998    0.130    
+mp-849596-GGA+UMn21O40     C2          GGA+U     -8.195  -1.025    0.058    
+mp-766493-GGA+UMn21O40     I-4         GGA+U     -8.185  -1.025    0.067    
+mp-1172875-GGA+UMn2O3       Pbca        GGA+U     -8.648  -1.079    0.000    
+mp-565203-GGA+UMn2O3       Pbca        GGA+U     -8.647  -1.079    0.000    
+mp-510604-R2SCANMn2O3       Ia-3        R2SCAN    -8.641  2.956     0.007    
+mp-1306224-GGA+UMn2O3       P-1         GGA+U     -8.597  -1.079    0.050    
+mp-1303934-GGA+UMn2O3       C2/c        GGA+U     -8.589  -1.079    0.059    
+mp-770543-GGA+UMn2O3       R-3c        GGA+U     -8.583  -1.079    0.064    
+mp-1203190-GGA+UMn2O3       R-3         GGA+U     -8.571  -1.079    0.076    
+mp-1204718-GGA+UMn2O3       P-1         GGA+U     -8.571  -1.079    0.077    
+mp-778470-GGA+UMn2O3       P4_12_12    GGA+U     -8.569  -1.079    0.079    
+mp-771717-GGA+UMn2O3       Pna2_1      GGA+U     -8.559  -1.079    0.088    
+mp-1043363-GGA+UMn2O3       Cmcm        GGA+U     -8.420  -1.079    0.227    
+mp-1182678-GGA+UMn2O3       I2_13       GGA+U     -8.226  -1.079    0.422    
+mp-1349371-GGA+UMn2O3       P-1         GGA+U     -5.777  -0.946    2.870    
+mp-1104282-GGA+UMn2O5       Pbam        GGA+U     -7.303  -0.967    0.412    
+mp-28338-GGA+UMn2O7       P2_1/c      GGA+U     -6.765  -0.905    0.336    
+mp-18759-R2SCANMn3O4       C2/m        R2SCAN    -8.804  3.054     0.000    
+mp-20141-GGA+UMn3O4       Pbcm        GGA+U     -8.752  -1.107    0.053    
+mp-1279995-GGA+UMn3O4       Pmc2_1      GGA+U     -8.749  -1.107    0.055    
+mp-1180876-GGA+UMn3O4       P2_1        GGA+U     -8.618  -1.107    0.186    
+mp-638270-GGA+UMn3O4       Pm          GGA+U     -8.586  -1.107    0.219    
+mp-1193728-GGA+UMn3O4       Pbcm        GGA+U     -8.585  -1.107    0.219    
+mp-1194100-GGA+UMn3O4       Pbcm        GGA+U     -8.582  -1.107    0.223    
+mp-1180464-GGA+UMn3O4       Pbcm        GGA+U     -8.225  -1.107    0.579    
+mp-1046066-GGA+UMn5O7       Cmcm        GGA+U     -8.505  -1.096    0.234    
+mp-18922-R2SCANMn5O8       C2/m        R2SCAN    -8.525  2.910     0.013    
+mp-752536-GGA+UMn5O8       R-3m        GGA+U     -8.455  -1.064    0.084    
+mp-754430-R2SCANMn7O12      Im-3        R2SCAN    -8.368  2.869     0.056    
+mp-1221945-GGA+UMn8O17      P-1         GGA+U     -7.937  -1.001    0.109    
+mp-1045833-GGA+UMn9O13      C2/m        GGA+U     -8.469  -1.088    0.228    
+mp-1232659-R2SCANMnO         Pmmn        R2SCAN    -9.088  3.210     0.000    
+mp-19006-R2SCANMnO         Fm-3m       R2SCAN    -9.034  3.210     0.053    
+mp-999539-GGA+UMnO         Cmc2_1      GGA+U     -9.029  -1.177    0.059    
+mp-999539-R2SCANMnO         P6_3mc      R2SCAN    -9.004  3.210     0.084    
+mp-1238899-GGA+UMnO         F-43m       GGA+U     -8.954  -1.177    0.133    
+mp-1238773-GGA+UMnO         P3m1        GGA+U     -8.672  -1.177    0.416    
+mp-644514-R2SCANMnO2        Cm          R2SCAN    -8.175  2.736     0.000    
+mp-510408-R2SCANMnO2        P4_2/mnm    R2SCAN    -8.169  2.736     0.006    
+mp-33009-R2SCANMnO2        Pnnm        R2SCAN    -8.168  2.736     0.007    
+mp-19326-R2SCANMnO2        Pnma        R2SCAN    -8.159  2.736     0.016    
+mp-19395-R2SCANMnO2        I4/m        R2SCAN    -8.158  2.736     0.017    
+mp-644514-GGA+UMnO2        C2/m        GGA+U     -8.142  -1.014    0.033    
+mp-796340-R2SCANMnO2        P4_2/m      R2SCAN    -8.139  2.736     0.036    
+mp-796336-R2SCANMnO2        P2/m        R2SCAN    -8.139  2.736     0.036    
+mp-1354190-R2SCANMnO2        Pnma        R2SCAN    -8.134  2.736     0.041    
+mp-755489-R2SCANMnO2        P6_3mc      R2SCAN    -8.130  2.736     0.045    
+mp-510408-GGA+UMnO2        P4_2/mnm    GGA+U     -8.129  -1.014    0.046    
+mp-33009-GGA+UMnO2        Pnnm        GGA+U     -8.129  -1.014    0.047    
+mp-755671-R2SCANMnO2        R-3m        R2SCAN    -8.115  2.736     0.060    
+mp-25424-R2SCANMnO2        R-3m        R2SCAN    -8.114  2.736     0.061    
+mp-25223-R2SCANMnO2        P-3m1       R2SCAN    -8.112  2.736     0.064    
+mp-1271850-R2SCANMnO2        P6_3/mmc    R2SCAN    -8.106  2.736     0.069    
+mp-1272141-R2SCANMnO2        R-3m        R2SCAN    -8.103  2.736     0.072    
+mp-25275-R2SCANMnO2        Fd-3m       R2SCAN    -8.099  2.736     0.076    
+mp-705430-GGA+UMnO2        P3m1        GGA+U     -8.063  -1.014    0.112    
+mp-1354468-GGA+UMnO2        P1          GGA+U     -8.062  -1.014    0.113    
+mp-1041066-GGA+UMnO2        P1          GGA+U     -8.006  -1.014    0.169    
+mp-510732-GGA+UMnO2        Pmmn        GGA+U     -7.990  -1.014    0.185    
+mp-1371977-GGA+UMnO2        Cmcm        GGA+U     -7.952  -1.014    0.223    
+mp-1407587-GGA+UMnO2        R3m         GGA+U     -7.949  -1.014    0.227    
+mp-1350912-GGA+UMnO2        Cm          GGA+U     -7.912  -1.014    0.263    
+mp-1221542-GGA+UMnO2        P4/mmm      GGA+U     -7.731  -1.014    0.445    
+mp-796077-GGA+UMnO2        P-1         GGA+U     -6.684  -1.014    1.491    
+mp-1221574-GGA+UMnO2        Fdd2        GGA+U     -6.591  -1.014    1.584    
+mp-1086672-GGA+UMnO3        Imma        GGA+U     -6.876  -0.538    0.494    
+mp-1221594-GGA+UMnO4        I4_1/amd    GGA+U     -6.364  -0.883    0.522    
+mp-611836-R2SCANO2          C2/m        R2SCAN    -4.952  1.008     0.000    
+mp-610917-R2SCANO2          R-3m        R2SCAN    -4.947  1.008     0.005    
+mp-723285-R2SCANO2          P4_12_12    R2SCAN    -4.947  1.008     0.006    
+mp-1087546-GGAO2          C2/c        GGA       -4.930  0.000     0.022    
+mp-1180036-GGAO2          P2/c        GGA       -4.918  0.000     0.034    
+mp-607540-GGAO2          Fmmm        GGA       -4.827  0.000     0.125    
+mp-1066100-R2SCANO2          P6_3/mmc    R2SCAN    -4.684  1.008     0.269    
+mp-1180064-GGAO2          P1          GGA       -4.561  0.000     0.391    
+mp-560602-GGAO2          Pbca        GGA       -4.537  0.000     0.416    
+mp-1180008-GGAO2          P1          GGA       -4.528  0.000     0.424    
+mp-734188-GGAO2          P4_1        GGA       -4.513  0.000     0.439    
+mp-2421172-GGAO2          R3c         GGA       -4.032  0.000     0.921    
+mp-1056831-GGAO2          P2/m        GGA       -3.637  0.000     1.315    
+mp-1056059-GGAO2          P4/mmm      GGA       -3.390  0.000     1.562    
+mp-1058623-GGAO2          Cmcm        GGA       -3.377  0.000     1.575    
+mp-1057818-GGAO2          Fd-3m       GGA       -3.067  0.000     1.885    
+MnO fraction = 0.39
+Processing 167 GGA(+U) and 12 R2SCAN entries...
+  Processed 167 compatible GGA(+U) entries with MaterialsProject2020Compatibility
+  Entries belong to the {'Fe', 'O'} chemical system
+  Generating mixing state data from provided entries.
+  Entries contain R2SCAN calculations for 3 of 5 GGA(+U) hull entries.
+  R2SCAN energies will be adjusted to the GGA(+U) scale
+  The energy above hull for R2SCAN materials at compositions with R2SCAN hull entries will be preserved. For other compositions, Energies of R2SCAN materials will be set equal to those of matching GGA(+U) materials
+  Discarding GGA entry mp-136-GGA for Fe2 because there is a matching R2SCAN material
+  Discarding GGA entry mp-1271198-GGA for Fe4 because there is a matching R2SCAN material
+  Discarding GGA entry mp-610917-GGA for O2 because there is a matching R2SCAN material
+  Discarding GGA+U entry mp-19306-GGA+U for Fe6 O8 because it is a GGA(+U) ground state that matches a R2SCAN material.
+  Discarding GGA entry mp-723285-GGA for O8 because it is a GGA(+U) ground state that matches a R2SCAN material.
+  Discarding GGA entry mp-1009490-GGA for O2 because there is a matching R2SCAN material
+  Discarding GGA entry mp-1066100-GGA for O4 because there is a matching R2SCAN material
+  Discarding GGA+U entry mp-19770-GGA+U for Fe4 O6 because it is a GGA(+U) ground state that matches a R2SCAN material.
+  Discarding GGA entry mp-150-GGA for Fe1 because there is a matching R2SCAN material
+  Discarding R2SCAN entry mp-13-R2SCAN for Fe2 because there is no matching GGA(+U) entry and no R2SCAN ground state at this composition.
+  Discarding R2SCAN entry mp-18905-R2SCAN for Fe2 O2 because there is no matching GGA(+U) entry and no R2SCAN ground state at this composition.
+
+Processing complete. Mixed entries contain 152 GGA(+U) and 9 R2SCAN entries.
+
+entry_id    formula     spacegroup  run_type  eV/atom corr/atom e_above_hull
+mp-13-GGA   Fe          Im-3m       GGA       -8.470  0.000     0.000    
+mp-1271068-GGAFe          Fmmm        GGA       -8.453  0.000     0.017    
+mp-1271198-R2SCANFe          P2_1/m      R2SCAN    -8.415  5.878     0.055    
+mp-136-R2SCANFe          P6_3/mmc    R2SCAN    -8.372  5.381     0.098    
+mp-1271128-GGAFe          Fmmm        GGA       -8.371  0.000     0.099    
+mp-150-R2SCANFe          Fm-3m       R2SCAN    -8.322  5.982     0.148    
+mp-1194030-GGAFe          P4_2/mnm    GGA       -8.295  0.000     0.175    
+mp-1245108-GGAFe          P1          GGA       -8.191  0.000     0.279    
+mp-1096950-GGAFe          P6/mmm      GGA       -7.993  0.000     0.477    
+mp-568345-GGAFe          Pm-3m       GGA       -7.709  0.000     0.761    
+mp-705555-GGA+UFe10O11     P-1         GGA+U     -8.116  -1.434    0.045    
+mp-759504-GGA+UFe10O11     P-1         GGA+U     -8.104  -1.434    0.057    
+mp-799417-GGA+UFe10O11     P-1         GGA+U     -7.449  -1.434    0.713    
+mp-705417-GGA+UFe11O12     P-1         GGA+U     -8.114  -1.437    0.050    
+mp-764326-GGA+UFe12O13     R-3         GGA+U     -8.083  -1.440    0.083    
+mp-705414-GGA+UFe13O14     R-3         GGA+U     -8.096  -1.442    0.072    
+mp-756693-GGA+UFe13O15     P-1         GGA+U     -8.069  -1.415    0.078    
+mp-1195927-GGA+UFe13O19     C2/m        GGA+U     -7.770  -1.324    0.303    
+mp-764417-GGA+UFe14O15     I4/m        GGA+U     -8.110  -1.444    0.059    
+mp-705551-GGA+UFe15O16     P1          GGA+U     -8.094  -1.446    0.077    
+mp-1224936-GGA+UFe15O16     R-3m        GGA+U     -8.087  -1.446    0.084    
+mp-705424-GGA+UFe17O18     P-1         GGA+U     -8.133  -1.449    0.040    
+mp-706875-GGA+UFe21O23     P1          GGA+U     -8.109  -1.436    0.053    
+mp-530048-GGA+UFe21O32     R32         GGA+U     -7.840  -1.309    0.195    
+mp-705553-GGA+UFe23O25     P-1         GGA+U     -8.115  -1.439    0.050    
+mp-776135-GGA+UFe23O32     P1          GGA+U     -7.980  -1.343    0.109    
+mp-774295-GGA+UFe23O32     R-3m        GGA+U     -7.900  -1.343    0.188    
+mp-1194978-GGA+UFe25O32     Amm2        GGA+U     -7.930  -1.375    0.185    
+mp-19770-R2SCANFe2O3       R-3c        R2SCAN    -8.064  2.830     0.000    
+mp-565814-GGA+UFe2O3       Ia-3        GGA+U     -7.993  -1.315    0.071    
+mp-715572-GGA+UFe2O3       P1          GGA+U     -7.987  -1.315    0.077    
+mp-1356129-GGA+UFe2O3       C2          GGA+U     -7.979  -1.315    0.085    
+mp-715276-GGA+UFe2O3       P1          GGA+U     -7.978  -1.315    0.086    
+mp-1178392-GGA+UFe2O3       Pbca        GGA+U     -7.951  -1.315    0.113    
+mp-542896-GGA+UFe2O3       Pna2_1      GGA+U     -7.948  -1.315    0.116    
+mp-1456-GGA+UFe2O3       P4_12_12    GGA+U     -7.945  -1.315    0.119    
+mp-776606-GGA+UFe2O3       P1          GGA+U     -7.941  -1.315    0.123    
+mp-510080-GGA+UFe2O3       Pbcn        GGA+U     -7.933  -1.315    0.131    
+mp-705547-GGA+UFe2O3       Cm          GGA+U     -7.904  -1.315    0.160    
+mp-1181824-GGA+UFe2O3       C2/c        GGA+U     -7.896  -1.315    0.168    
+mp-1205415-GGA+UFe2O3       Pnma        GGA+U     -7.887  -1.315    0.177    
+mp-685153-GGA+UFe2O3       P1          GGA+U     -7.839  -1.315    0.225    
+mp-1078361-GGA+UFe2O3       Cmcm        GGA+U     -7.827  -1.315    0.236    
+mp-1244911-GGA+UFe2O3       P1          GGA+U     -7.790  -1.315    0.274    
+mp-1378486-GGA+UFe2O3       Cmcm        GGA+U     -7.789  -1.315    0.275    
+mp-1245019-GGA+UFe2O3       P1          GGA+U     -7.775  -1.315    0.289    
+mp-1244869-GGA+UFe2O3       P1          GGA+U     -7.774  -1.315    0.290    
+mp-1245078-GGA+UFe2O3       P1          GGA+U     -7.758  -1.315    0.306    
+mp-1245154-GGA+UFe2O3       P1          GGA+U     -7.743  -1.315    0.321    
+mp-1245277-GGA+UFe2O3       P1          GGA+U     -7.720  -1.315    0.344    
+mp-716814-GGA+UFe2O3       P3          GGA+U     -7.561  -1.315    0.503    
+mp-557546-GGA+UFe2O3       P3          GGA+U     -7.536  -1.315    0.528    
+mp-1245084-GGA+UFe2O3       P1          GGA+U     -7.512  -1.181    0.552    
+mp-1068212-GGA+UFe2O3       Pm-3m       GGA+U     -7.204  -1.315    0.860    
+mp-1147691-GGA+UFe2O5       P-1         GGA+U     -6.799  -1.135    0.376    
+mp-863766-GGA+UFe32O35     P1          GGA+U     -8.105  -1.436    0.058    
+mp-694910-GGA+UFe35O36     P1          GGA+U     -7.398  -1.460    0.784    
+mp-705753-GGA+UFe38O39     P-1         GGA+U     -8.111  -1.461    0.071    
+mp-1184320-GGA+UFe3O        P6_3/mmc    GGA+U     -6.819  -1.864    1.511    
+mp-19306-R2SCANFe3O4       Fd-3m       R2SCAN    -8.103  3.043     0.000    
+mp-31770-GGA+UFe3O4       Cc          GGA+U     -8.085  -1.359    0.017    
+mp-1271821-GGA+UFe3O4       P-1         GGA+U     -8.078  -1.359    0.024    
+mp-1271978-GGA+UFe3O4       P1          GGA+U     -8.074  -1.359    0.029    
+mp-715811-GGA+UFe3O4       P2/m        GGA+U     -8.065  -1.359    0.037    
+mp-1181657-GGA+UFe3O4       P2/m        GGA+U     -8.062  -1.359    0.040    
+mp-1181813-GGA+UFe3O4       Pmc2_1      GGA+U     -8.054  -1.359    0.048    
+mp-1182249-GGA+UFe3O4       P1          GGA+U     -8.050  -1.359    0.052    
+mp-1185276-GGA+UFe3O4       P1          GGA+U     -8.044  -1.359    0.059    
+mp-650112-GGA+UFe3O4       Pbcm        GGA+U     -8.043  -1.359    0.059    
+mp-1271729-GGA+UFe3O4       P1          GGA+U     -8.041  -1.359    0.062    
+mp-510252-GGA+UFe3O4       Pmma        GGA+U     -8.028  -1.359    0.075    
+mp-716052-GGA+UFe3O4       P2/m        GGA+U     -8.027  -1.359    0.075    
+mp-1181546-GGA+UFe3O4       P2/m        GGA+U     -8.027  -1.359    0.076    
+mp-715438-GGA+UFe3O4       P1          GGA+U     -8.024  -1.359    0.078    
+mp-715558-GGA+UFe3O4       P2/m        GGA+U     -8.024  -1.359    0.079    
+mp-1192788-GGA+UFe3O4       Pbcm        GGA+U     -7.994  -1.359    0.109    
+mp-715275-GGA+UFe3O4       Pc          GGA+U     -7.989  -1.359    0.114    
+mp-505595-GGA+UFe3O4       P2_1        GGA+U     -7.988  -1.359    0.114    
+mp-1181340-GGA+UFe3O4       P2/m        GGA+U     -7.978  -1.359    0.124    
+mp-1182229-GGA+UFe3O4       P1          GGA+U     -7.971  -1.359    0.131    
+mp-1181570-GGA+UFe3O4       Pc          GGA+U     -7.970  -1.359    0.133    
+mp-705416-GGA+UFe3O4       Pbcm        GGA+U     -7.957  -1.359    0.146    
+mp-612405-GGA+UFe3O4       Cm          GGA+U     -7.925  -1.359    0.177    
+mp-715614-GGA+UFe3O4       C2/m        GGA+U     -7.634  -1.359    0.468    
+mp-611817-GGA+UFe3O4       F-43m       GGA+U     -7.397  -1.359    0.706    
+mp-1379262-GGA+UFe3O4       Pm          GGA+U     -7.126  -1.359    0.976    
+mp-1104628-GGA+UFe3O4       Pmma        GGA+U     -7.034  -1.233    1.068    
+mp-757565-GGA+UFe41O56     R3          GGA+U     -8.008  -1.350    0.087    
+mp-530050-GGA+UFe43O64     C2          GGA+U     -7.950  -1.318    0.116    
+mp-1181411-GGA+UFe4O13      Immm        GGA+U     -6.201  -1.056    0.582    
+mp-1188678-GGA+UFe4O5       Cmcm        GGA+U     -8.033  -1.384    0.090    
+mp-1095382-GGA+UFe5O7       C2/m        GGA+U     -7.915  -1.341    0.171    
+mp-1326275-GGA+UFe5O7       Cmcm        GGA+U     -7.873  -1.341    0.213    
+mp-510746-GGA+UFe5O8       P4_332      GGA+U     -7.781  -1.290    0.164    
+mp-1225007-GGA+UFe5O8       F-43m       GGA+U     -7.762  -1.290    0.182    
+mp-1225001-GGA+UFe5O8       R-3m        GGA+U     -7.759  -1.290    0.185    
+mp-715333-GGA+UFe7O8       P-1         GGA+U     -8.085  -1.419    0.064    
+mp-32939-GGA+UFe7O8       Fm-3m       GGA+U     -8.050  -1.419    0.099    
+mp-705558-GGA+UFe7O9       P1          GGA+U     -7.894  -1.373    0.220    
+mp-1182503-GGA+UFe8O17      P1          GGA+U     -7.190  -1.189    0.251    
+mp-705588-GGA+UFe8O9       P1          GGA+U     -8.105  -1.425    0.050    
+mp-763787-GGA+UFe8O9       P-1         GGA+U     -8.092  -1.425    0.062    
+mp-759037-GGA+UFe9O10      P-1         GGA+U     -8.118  -1.430    0.040    
+mp-1342828-GGA+UFe9O13      C2/m        GGA+U     -7.812  -1.329    0.264    
+mp-1274279-GGA+UFeO         P-1         GGA+U     -8.191  -1.471    0.000    
+mp-715262-GGA+UFeO         I4/mmm      GGA+U     -8.181  -1.471    0.009    
+mp-1178232-GGA+UFeO         P1          GGA+U     -8.178  -1.471    0.012    
+mp-1283030-GGA+UFeO         P-1         GGA+U     -8.176  -1.471    0.014    
+mp-753682-GGA+UFeO         P4_2/mmc    GGA+U     -8.103  -1.471    0.087    
+mp-849689-GGA+UFeO         P-62c       GGA+U     -8.087  -1.471    0.104    
+mp-1178247-GGA+UFeO         P31c        GGA+U     -8.079  -1.471    0.111    
+mp-755189-GGA+UFeO         C2/m        GGA+U     -8.077  -1.471    0.113    
+mp-756436-GGA+UFeO         C2/m        GGA+U     -8.075  -1.471    0.116    
+mp-1244983-GGA+UFeO         P1          GGA+U     -7.913  -1.472    0.278    
+mp-1178239-GGA+UFeO         Cc          GGA+U     -7.890  -1.471    0.300    
+mp-1245168-GGA+UFeO         P1          GGA+U     -7.885  -1.472    0.306    
+mp-1245001-GGA+UFeO         P1          GGA+U     -7.870  -1.472    0.320    
+mp-18905-GGA+UFeO         I4/mmm      GGA+U     -7.780  -1.471    0.410    
+mp-754765-GGA+UFeO         P6_3mc      GGA+U     -7.728  -1.471    0.463    
+mp-1181437-GGA+UFeO         I4/mmm      GGA+U     -7.138  -1.471    1.053    
+mp-850222-GGA+UFeO2        P4_2/mnm    GGA+U     -7.399  -1.210    0.146    
+mp-25332-GGA+UFeO2        I4_1/amd    GGA+U     -7.377  -1.210    0.168    
+mp-796324-GGA+UFeO2        I4/m        GGA+U     -7.365  -1.210    0.181    
+mp-1181766-GGA+UFeO2        P2/m        GGA+U     -7.364  -1.210    0.181    
+mp-1205429-GGA+UFeO2        Pm          GGA+U     -7.358  -1.210    0.187    
+mp-796259-GGA+UFeO2        Pnma        GGA+U     -7.340  -1.210    0.205    
+mp-1062652-GGA+UFeO2        C2/m        GGA+U     -7.288  -1.210    0.257    
+mp-1395285-GGA+UFeO2        Imma        GGA+U     -7.286  -1.210    0.259    
+mp-1359196-GGA+UFeO2        Cm          GGA+U     -7.274  -1.210    0.272    
+mp-1354450-GGA+UFeO2        P1          GGA+U     -7.273  -1.210    0.272    
+mp-25236-GGA+UFeO2        R-3m        GGA+U     -7.271  -1.210    0.275    
+mp-821313-GGA+UFeO2        P-3m1       GGA+U     -7.270  -1.210    0.275    
+mp-1097003-GGA+UFeO2        Cmcm        GGA+U     -7.269  -1.210    0.276    
+mp-714904-GGA+UFeO2        I4_1/amd    GGA+U     -7.265  -1.210    0.280    
+mp-1355579-GGA+UFeO2        P3m1        GGA+U     -7.265  -1.210    0.281    
+mp-1443203-GGA+UFeO2        R3m         GGA+U     -7.235  -1.210    0.310    
+mp-1431292-GGA+UFeO2        R-3m        GGA+U     -7.235  -1.210    0.310    
+mp-1384466-GGA+UFeO2        P6_3/mmc    GGA+U     -7.225  -1.210    0.321    
+mp-540003-GGA+UFeO2        Fd-3m       GGA+U     -7.224  -1.210    0.321    
+mp-1350825-GGA+UFeO2        Cm          GGA+U     -7.211  -1.210    0.335    
+mp-1355192-GGA+UFeO2        Cm          GGA+U     -7.204  -1.210    0.341    
+mp-1387762-GGA+UFeO2        Imma        GGA+U     -7.170  -1.210    0.375    
+mp-1047285-GGA+UFeO2        Pnma        GGA+U     -7.154  -1.210    0.391    
+mp-1412685-GGA+UFeO2        P6_3/mmc    GGA+U     -5.562  -1.210    1.983    
+mp-863316-GGA+UFeO3        C2/m        GGA+U     -6.355  -0.685    0.542    
+mp-611836-R2SCANO2          C2/m        R2SCAN    -4.952  1.008     0.000    
+mp-610917-R2SCANO2          R-3m        R2SCAN    -4.947  1.008     0.005    
+mp-723285-R2SCANO2          P4_12_12    R2SCAN    -4.947  1.008     0.006    
+mp-1087546-GGAO2          C2/c        GGA       -4.930  0.000     0.022    
+mp-1180036-GGAO2          P2/c        GGA       -4.918  0.000     0.034    
+mp-607540-GGAO2          Fmmm        GGA       -4.827  0.000     0.125    
+mp-1066100-R2SCANO2          P6_3/mmc    R2SCAN    -4.684  1.008     0.269    
+mp-1180064-GGAO2          P1          GGA       -4.561  0.000     0.391    
+mp-560602-GGAO2          Pbca        GGA       -4.537  0.000     0.416    
+mp-1180008-GGAO2          P1          GGA       -4.528  0.000     0.424    
+mp-734188-GGAO2          P4_1        GGA       -4.513  0.000     0.439    
+mp-2421172-GGAO2          R3c         GGA       -4.032  0.000     0.921    
+mp-1056831-GGAO2          P2/m        GGA       -3.637  0.000     1.315    
+mp-1056059-GGAO2          P4/mmm      GGA       -3.390  0.000     1.562    
+mp-1058623-GGAO2          Cmcm        GGA       -3.377  0.000     1.575    
+mp-1057818-GGAO2          Fd-3m       GGA       -3.067  0.000     1.885    
+FeO fraction = 0.09
+Processing 87 GGA(+U) and 23 R2SCAN entries...
+  Processed 87 compatible GGA(+U) entries with MaterialsProject2020Compatibility
+  Entries belong to the {'Co', 'O'} chemical system
+  Generating mixing state data from provided entries.
+  Entries contain R2SCAN calculations for 3 of 5 GGA(+U) hull entries.
+  R2SCAN energies will be adjusted to the GGA(+U) scale
+  The energy above hull for R2SCAN materials at compositions with R2SCAN hull entries will be preserved. For other compositions, Energies of R2SCAN materials will be set equal to those of matching GGA(+U) materials
+  Discarding GGA+U entry mp-25234-GGA+U for Co2 O4 because there is a matching R2SCAN material
+  Discarding GGA+U entry mp-1062939-GGA+U for Co4 O8 because there is a matching R2SCAN material
+  Discarding GGA+U entry mp-1272749-GGA+U for Co2 O4 because there is a matching R2SCAN material
+  Discarding GGA+U entry mp-18748-GGA+U for Co6 O8 because there is a matching R2SCAN material
+  Discarding GGA entry mp-54-GGA for Co2 because it is a GGA(+U) ground state that matches a R2SCAN material.
+  Discarding GGA+U entry mp-19079-GGA+U for Co2 O2 because there is a matching R2SCAN material
+  Discarding GGA entry mp-610917-GGA for O2 because there is a matching R2SCAN material
+  Discarding GGA+U entry mp-504097-GGA+U for Co4 O8 because there is a matching R2SCAN material
+  Discarding GGA entry mp-1183710-GGA for Co4 because there is a matching R2SCAN material
+  Discarding GGA entry mp-1193227-GGA for Co28 because there is a matching R2SCAN material
+  Discarding GGA entry mp-723285-GGA for O8 because it is a GGA(+U) ground state that matches a R2SCAN material.
+  Discarding GGA entry mp-1009490-GGA for O2 because there is a matching R2SCAN material
+  Discarding GGA entry mp-1066100-GGA for O4 because there is a matching R2SCAN material
+  Discarding GGA+U entry mp-1400906-GGA+U for Co4 O8 because it is a GGA(+U) ground state that matches a R2SCAN material.
+  Discarding GGA+U entry mp-761471-GGA+U for Co5 O8 because there is a matching R2SCAN material
+  Discarding GGA+U entry mp-32686-GGA+U for Co2 O4 because there is a matching R2SCAN material
+  Discarding GGA entry mp-102-GGA for Co1 because there is a matching R2SCAN material
+  Discarding GGA+U entry mp-1275937-GGA+U for Co4 O8 because there is a matching R2SCAN material
+  Discarding R2SCAN entry mp-22408-R2SCAN for Co2 O2 because there is no matching GGA(+U) entry and no R2SCAN ground state at this composition.
+  Discarding R2SCAN entry mp-19128-R2SCAN for Co2 O2 because there is no matching GGA(+U) entry and no R2SCAN ground state at this composition.
+
+Processing complete. Mixed entries contain 64 GGA(+U) and 20 R2SCAN entries.
+
+entry_id    formula     spacegroup  run_type  eV/atom corr/atom e_above_hull
+mp-102-R2SCANCo          Fm-3m       R2SCAN    -7.133  6.101     0.000    
+mp-1183710-R2SCANCo          P6_3/mmc    R2SCAN    -7.123  6.101     0.011    
+mp-54-R2SCANCo          P6_3/mmc    R2SCAN    -7.108  6.101     0.025    
+mp-1271142-GGACo          P-3m1       GGA       -7.098  0.000     0.035    
+mp-2647057-GGACo          Im-3m       GGA       -7.019  0.000     0.115    
+mp-1193227-R2SCANCo          P4_2/mnm    R2SCAN    -7.014  6.101     0.119    
+mp-669382-GGACo          P6_3mc      GGA       -6.991  0.000     0.143    
+mp-1072089-GGACo          Fd-3m       GGA       -6.909  0.000     0.224    
+mp-766681-GGA+UCo15O28     P-1         GGA+U     -6.795  -1.019    0.023    
+mp-850026-GGA+UCo21O40     I-4         GGA+U     -6.750  -1.014    0.048    
+mp-705563-GGA+UCo29O40     P1          GGA+U     -7.048  -1.087    0.090    
+mp-1043418-GGA+UCo2O3       Cmcm        GGA+U     -6.751  -1.067    0.296    
+mp-1271793-GGA+UCo3O4       C2/m        GGA+U     -7.175  -1.095    0.000    
+mp-18748-R2SCANCo3O4       Fd-3m       R2SCAN    -7.164  3.290     0.010    
+mp-1271784-GGA+UCo3O4       Imma        GGA+U     -7.145  -1.095    0.030    
+mp-1271940-GGA+UCo3O4       Imma        GGA+U     -7.085  -1.095    0.090    
+mp-1046082-GGA+UCo5O7       Cmcm        GGA+U     -6.720  -1.083    0.401    
+mp-761471-R2SCANCo5O8       I-4m2       R2SCAN    -6.958  3.023     0.020    
+mp-756900-GGA+UCo7O12      C2          GGA+U     -6.783  -1.037    0.122    
+mp-2215229-GGA+UCo7O12      P1          GGA+U     -6.756  -1.037    0.149    
+mp-1343966-GGA+UCo9O13      C2/m        GGA+U     -6.846  -1.076    0.242    
+mp-22408-GGA+UCoO         F-43m       GGA+U     -7.313  -1.163    0.000    
+mp-19128-GGA+UCoO         P6_3mc      GGA+U     -7.312  -1.163    0.000    
+mp-19079-R2SCANCoO         R-3m        R2SCAN    -7.276  3.379     0.037    
+mp-19275-GGA+UCoO         Cmme        GGA+U     -7.181  -1.163    0.132    
+mp-1245089-GGA+UCoO         P1          GGA+U     -6.944  -1.163    0.369    
+mp-1245304-GGA+UCoO         P1          GGA+U     -6.928  -1.163    0.384    
+mp-1244882-GGA+UCoO         P1          GGA+U     -6.911  -1.163    0.402    
+mp-1244939-GGA+UCoO         P1          GGA+U     -6.903  -1.163    0.409    
+mp-1400906-R2SCANCoO2        C2/m        R2SCAN    -6.749  2.713     0.000    
+mp-754748-GGA+UCoO2        P1          GGA+U     -6.743  -1.004    0.006    
+mp-550206-GGA+UCoO2        P-1         GGA+U     -6.742  -1.004    0.007    
+mp-1278455-GGA+UCoO2        P1          GGA+U     -6.736  -1.004    0.012    
+mp-1272680-GGA+UCoO2        P1          GGA+U     -6.735  -1.004    0.014    
+mp-1344053-GGA+UCoO2        Pnma        GGA+U     -6.724  -1.004    0.025    
+mp-1178540-GGA+UCoO2        C2          GGA+U     -6.723  -1.004    0.026    
+mp-1278937-GGA+UCoO2        Fddd        GGA+U     -6.692  -1.004    0.057    
+mp-755508-GGA+UCoO2        P6_3mc      GGA+U     -6.681  -1.004    0.068    
+mp-1281832-GGA+UCoO2        P-1         GGA+U     -6.676  -1.004    0.073    
+mp-1359404-GGA+UCoO2        P3m1        GGA+U     -6.665  -1.004    0.083    
+mp-25234-R2SCANCoO2        C2/m        R2SCAN    -6.660  2.713     0.089    
+mp-856161-R2SCANCoO2        P1          R2SCAN    -6.660  2.713     0.089    
+mp-1275937-R2SCANCoO2        Cm          R2SCAN    -6.652  2.713     0.097    
+mp-1356781-GGA+UCoO2        P3m1        GGA+U     -6.645  -1.004    0.104    
+mp-1062939-R2SCANCoO2        P-1         R2SCAN    -6.642  2.713     0.107    
+mp-32686-R2SCANCoO2        P-3m1       R2SCAN    -6.641  2.713     0.107    
+mp-550206-R2SCANCoO2        R-3m        R2SCAN    -6.632  2.713     0.117    
+mp-504097-R2SCANCoO2        Fd-3m       R2SCAN    -6.629  2.713     0.120    
+mp-1272749-R2SCANCoO2        C2/m        R2SCAN    -6.629  2.713     0.120    
+mp-756488-GGA+UCoO2        R3m         GGA+U     -6.629  -1.004    0.120    
+mp-754720-GGA+UCoO2        R-3m        GGA+U     -6.609  -1.004    0.140    
+mp-556750-GGA+UCoO2        C2/m        GGA+U     -6.586  -1.004    0.163    
+mp-856161-GGA+UCoO2        Aem2        GGA+U     -6.585  -1.004    0.164    
+mp-796278-GGA+UCoO2        Cmce        GGA+U     -6.585  -1.004    0.164    
+mp-1349907-GGA+UCoO2        Cm          GGA+U     -6.568  -1.004    0.181    
+mp-1047639-GGA+UCoO2        Cmcm        GGA+U     -6.514  -1.004    0.235    
+mp-1041988-GGA+UCoO2        Imma        GGA+U     -6.495  -1.004    0.254    
+mp-1063268-GGA+UCoO2        Cmmm        GGA+U     -6.339  -1.004    0.410    
+mp-1062643-GGA+UCoO2        Fmm2        GGA+U     -6.228  -1.004    0.521    
+mp-1245119-GGA+UCoO2        P1          GGA+U     -6.160  -0.653    0.588    
+mp-1244867-GGA+UCoO2        P1          GGA+U     -6.115  -0.653    0.634    
+mp-1226115-GGA+UCoO2        Cm          GGA+U     -6.092  -1.004    0.657    
+mp-1245011-GGA+UCoO2        P1          GGA+U     -6.052  -0.546    0.697    
+mp-1244948-GGA+UCoO2        P1          GGA+U     -6.052  -0.546    0.697    
+mp-1245099-GGA+UCoO2        P1          GGA+U     -6.017  -0.546    0.732    
+mp-1408926-GGA+UCoO2        P6_3/mmc    GGA+U     -5.469  -1.004    1.280    
+mp-1181781-GGA+UCoO2        C2/m        GGA+U     -5.439  -1.004    1.310    
+mp-1079523-GGA+UCoO4        P2_1/m      GGA+U     -5.429  -0.877    0.601    
+mp-611836-R2SCANO2          C2/m        R2SCAN    -4.952  1.008     0.000    
+mp-610917-R2SCANO2          R-3m        R2SCAN    -4.947  1.008     0.005    
+mp-723285-R2SCANO2          P4_12_12    R2SCAN    -4.947  1.008     0.006    
+mp-1087546-GGAO2          C2/c        GGA       -4.930  0.000     0.022    
+mp-1180036-GGAO2          P2/c        GGA       -4.918  0.000     0.034    
+mp-607540-GGAO2          Fmmm        GGA       -4.827  0.000     0.125    
+mp-1066100-R2SCANO2          P6_3/mmc    R2SCAN    -4.684  1.008     0.269    
+mp-1180064-GGAO2          P1          GGA       -4.561  0.000     0.391    
+mp-560602-GGAO2          Pbca        GGA       -4.537  0.000     0.416    
+mp-1180008-GGAO2          P1          GGA       -4.528  0.000     0.424    
+mp-734188-GGAO2          P4_1        GGA       -4.513  0.000     0.439    
+mp-2421172-GGAO2          R3c         GGA       -4.032  0.000     0.921    
+mp-1056831-GGAO2          P2/m        GGA       -3.637  0.000     1.315    
+mp-1056059-GGAO2          P4/mmm      GGA       -3.390  0.000     1.562    
+mp-1058623-GGAO2          Cmcm        GGA       -3.377  0.000     1.575    
+mp-1057818-GGAO2          Fd-3m       GGA       -3.067  0.000     1.885    
+CoO fraction = 0.39
+Processing 63 GGA(+U) and 11 R2SCAN entries...
+  Processed 63 compatible GGA(+U) entries with MaterialsProject2020Compatibility
+  Entries belong to the {'Ni', 'O'} chemical system
+  Generating mixing state data from provided entries.
+  Entries contain R2SCAN calculations for 3 of 4 GGA(+U) hull entries.
+  R2SCAN energies will be adjusted to the GGA(+U) scale
+  The energy above hull for R2SCAN materials at compositions with R2SCAN hull entries will be preserved. For other compositions, Energies of R2SCAN materials will be set equal to those of matching GGA(+U) materials
+  Discarding GGA+U entry mp-656887-GGA+U for Ni6 O8 because it is a GGA(+U) ground state that matches a R2SCAN material.
+  Discarding GGA entry mp-723285-GGA for O8 because it is a GGA(+U) ground state that matches a R2SCAN material.
+  Discarding GGA entry mp-1008728-GGA for Ni1 because there is a matching R2SCAN material
+  Discarding GGA entry mp-23-GGA for Ni1 because it is a GGA(+U) ground state that matches a R2SCAN material.
+  Discarding GGA entry mp-610917-GGA for O2 because there is a matching R2SCAN material
+  Discarding GGA entry mp-1009490-GGA for O2 because there is a matching R2SCAN material
+  Discarding GGA+U entry mp-754806-GGA+U for Ni5 O6 because there is a matching R2SCAN material
+  Discarding GGA entry mp-1066100-GGA for O4 because there is a matching R2SCAN material
+  Discarding GGA entry mp-10257-GGA for Ni2 because there is a matching R2SCAN material
+  Discarding R2SCAN entry mp-19009-R2SCAN for Ni1 O1 because there is no matching GGA(+U) entry and no R2SCAN ground state at this composition.
+
+Processing complete. Mixed entries contain 49 GGA(+U) and 9 R2SCAN entries.
+
+entry_id    formula     spacegroup  run_type  eV/atom corr/atom e_above_hull
+mp-23-R2SCANNi          Fm-3m       R2SCAN    -5.780  6.202     0.000    
+mp-10257-R2SCANNi          P6_3/mmc    R2SCAN    -5.734  6.202     0.046    
+mp-1008728-R2SCANNi          Im-3m       R2SCAN    -5.661  6.202     0.119    
+mp-1246134-GGANi          P6/mmm      GGA       -5.370  0.000     0.410    
+mp-1014111-GGANi          P-3m1       GGA       -5.160  0.000     0.620    
+mp-1094136-GGANi          P6/mmm      GGA       -5.040  0.000     0.740    
+mp-1100319-GGA+UNi15O16     R-3m        GGA+U     -6.503  -1.584    0.027    
+mp-705519-GGA+UNi15O16     Im-3m       GGA+U     -6.492  -1.584    0.038    
+mp-33255-GGA+UNi15O16     R-3m        GGA+U     -6.430  -1.584    0.100    
+mp-1043875-GGA+UNi2O3       Cmcm        GGA+U     -6.044  -1.429    0.214    
+mp-1220143-GGA+UNi2O3       Cc          GGA+U     -5.867  -1.429    0.391    
+mp-1094139-GGA+UNi2O5       C2/c        GGA+U     -5.371  -0.841    0.514    
+mp-656887-R2SCANNi3O4       Cmmm        R2SCAN    -6.351  3.279     0.000    
+mp-754800-GGA+UNi3O4       C2/m        GGA+U     -6.310  -1.482    0.041    
+mp-1094082-GGA+UNi4O        Pm-3m       GGA+U     -4.711  -2.170    1.390    
+mp-1094096-GGA+UNi4O3       Pm-3m       GGA+U     -6.037  -1.746    0.431    
+mp-1220184-GGA+UNi5O11      P-1         GGA+U     -5.765  -1.266    0.207    
+mp-1220234-GGA+UNi5O4       I4/m        GGA+U     -6.142  -1.717    0.351    
+mp-1094094-GGA+UNi5O4       P-43m       GGA+U     -5.684  -1.717    0.809    
+mp-754806-R2SCANNi5O6       C2/m        R2SCAN    -6.395  3.390     0.041    
+mp-1046095-GGA+UNi5O7       Cmcm        GGA+U     -6.120  -1.460    0.192    
+mp-766450-GGA+UNi6O7       P-1         GGA+U     -6.411  -1.543    0.047    
+mp-656884-GGA+UNi9O10      P-1         GGA+U     -6.450  -1.565    0.047    
+mp-1045896-GGA+UNi9O13      C2/m        GGA+U     -6.099  -1.445    0.189    
+mp-19009-GGA+UNiO         Fm-3m       GGA+U     -6.582  -1.614    0.000    
+mp-1180047-GGA+UNiO         P6/mmm      GGA+U     -5.268  -1.614    1.314    
+mp-35925-GGA+UNiO2        R-3m        GGA+U     -5.913  -1.305    0.128    
+mp-25210-GGA+UNiO2        R-3m        GGA+U     -5.910  -1.305    0.131    
+mp-510753-GGA+UNiO2        P-3m1       GGA+U     -5.906  -1.305    0.134    
+mp-25428-GGA+UNiO2        Fd-3m       GGA+U     -5.899  -1.305    0.141    
+mp-1041980-GGA+UNiO2        P6_3/mmc    GGA+U     -5.887  -1.305    0.153    
+mp-1385278-GGA+UNiO2        I4/m        GGA+U     -5.842  -1.305    0.199    
+mp-1354141-GGA+UNiO2        P1          GGA+U     -5.837  -1.305    0.204    
+mp-1369444-GGA+UNiO2        Pnma        GGA+U     -5.827  -1.305    0.214    
+mp-1041256-GGA+UNiO2        P1          GGA+U     -5.786  -1.305    0.254    
+mp-1407373-GGA+UNiO2        R3m         GGA+U     -5.714  -1.305    0.327    
+mp-1047762-GGA+UNiO2        Cmcm        GGA+U     -5.699  -1.305    0.342    
+mp-1042019-GGA+UNiO2        Imma        GGA+U     -5.580  -1.305    0.461    
+mp-1042045-GGA+UNiO2        Cm          GGA+U     -5.553  -1.305    0.488    
+mp-634706-GGA+UNiO2        Immm        GGA+U     -5.499  -1.305    0.542    
+mp-25206-GGA+UNiO2        Immm        GGA+U     -5.458  -1.305    0.582    
+mp-1209929-GGA+UNiO3        Cmmm        GGA+U     -4.716  -1.151    1.053    
+mp-611836-R2SCANO2          C2/m        R2SCAN    -4.952  1.008     0.000    
+mp-610917-R2SCANO2          R-3m        R2SCAN    -4.947  1.008     0.005    
+mp-723285-R2SCANO2          P4_12_12    R2SCAN    -4.947  1.008     0.006    
+mp-1087546-GGAO2          C2/c        GGA       -4.930  0.000     0.022    
+mp-1180036-GGAO2          P2/c        GGA       -4.918  0.000     0.034    
+mp-607540-GGAO2          Fmmm        GGA       -4.827  0.000     0.125    
+mp-1066100-R2SCANO2          P6_3/mmc    R2SCAN    -4.684  1.008     0.269    
+mp-1180064-GGAO2          P1          GGA       -4.561  0.000     0.391    
+mp-560602-GGAO2          Pbca        GGA       -4.537  0.000     0.416    
+mp-1180008-GGAO2          P1          GGA       -4.528  0.000     0.424    
+mp-734188-GGAO2          P4_1        GGA       -4.513  0.000     0.439    
+mp-2421172-GGAO2          R3c         GGA       -4.032  0.000     0.921    
+mp-1056831-GGAO2          P2/m        GGA       -3.637  0.000     1.315    
+mp-1056059-GGAO2          P4/mmm      GGA       -3.390  0.000     1.562    
+mp-1058623-GGAO2          Cmcm        GGA       -3.377  0.000     1.575    
+mp-1057818-GGAO2          Fd-3m       GGA       -3.067  0.000     1.885    
+NiO fraction = 0.99
+Processing 66 GGA(+U) and 18 R2SCAN entries...
+  Processed 66 compatible GGA(+U) entries with MaterialsProject2020Compatibility
+  Entries belong to the {'Cu', 'O'} chemical system
+  Generating mixing state data from provided entries.
+  Entries contain R2SCAN calculations for 5 of 5 GGA(+U) hull entries.
+  GGA(+U) energies will be adjusted to the R2SCAN scale
+  The energy above hull for R2SCAN materials at compositions with R2SCAN hull entries will be preserved. For other compositions, Energies of R2SCAN materials will be set equal to those of matching GGA(+U) materials
+  Discarding GGA entry mp-1120774-GGA for Cu6 because there is a matching R2SCAN material.
+  Discarding GGA entry mp-1059259-GGA for Cu2 because there is a matching R2SCAN material.
+  Discarding GGA entry mp-1010136-GGA for Cu1 because there is a matching R2SCAN material.
+  Discarding GGA entry mp-723285-GGA for O8 because it is a GGA(+U) ground state that matches a R2SCAN material.
+  Discarding GGA entry mp-1178476-GGA for Cu6 O8 because there is a matching R2SCAN material.
+  Discarding GGA entry mp-760432-GGA for Cu4 O6 because there is a matching R2SCAN material.
+  Discarding GGA entry mp-30-GGA for Cu1 because it is a GGA(+U) ground state that matches a R2SCAN material.
+  Discarding GGA entry mp-1478-GGA for Cu8 O6 because there is a matching R2SCAN material.
+  Discarding GGA entry mp-1692-GGA for Cu2 O2 because it is a GGA(+U) ground state that matches a R2SCAN material.
+  Discarding GGA entry mp-610917-GGA for O2 because there is a matching R2SCAN material.
+  Discarding GGA entry mp-1009490-GGA for O2 because there is a matching R2SCAN material.
+  Discarding GGA entry mp-989695-GGA for Cu4 because there is a matching R2SCAN material.
+  Discarding GGA entry mp-998890-GGA for Cu1 because there is a matching R2SCAN material.
+  Discarding GGA entry mp-989782-GGA for Cu2 because there is a matching R2SCAN material.
+  Discarding GGA entry mp-1066100-GGA for O4 because there is a matching R2SCAN material.
+  Discarding GGA entry mp-361-GGA for Cu4 O2 because it is a GGA(+U) ground state that matches a R2SCAN material.
+  Discarding GGA entry mp-771359-GGA for Cu16 O24 because it is a GGA(+U) ground state that matches a R2SCAN material.
+
+Processing complete. Mixed entries contain 44 GGA(+U) and 17 R2SCAN entries.
+
+entry_id    formula     spacegroup  run_type  eV/atom corr/atom e_above_hull
+mp-30-R2SCANCu          Fm-3m       R2SCAN    -10.847 0.000     0.000    
+mp-989695-R2SCANCu          P6_3/mmc    R2SCAN    -10.839 0.000     0.008    
+mp-989782-R2SCANCu          P6_3/mmc    R2SCAN    -10.834 0.000     0.012    
+mp-998890-R2SCANCu          Im-3m       R2SCAN    -10.814 0.000     0.033    
+mp-1010136-R2SCANCu          I4/mmm      R2SCAN    -10.811 0.000     0.036    
+mp-1059259-R2SCANCu          Cmcm        R2SCAN    -10.691 0.000     0.156    
+mp-1120774-R2SCANCu          P-3m1       R2SCAN    -10.666 0.000     0.180    
+mp-1056079-GGACu          P2/m        GGA       -8.864  -6.748    1.983    
+mp-361-R2SCANCu2O        Pn-3m       R2SCAN    -9.721  0.000     0.020    
+mp-755040-GGACu2O3       P2_1/c      GGA       -8.497  -3.514    0.046    
+mp-760432-R2SCANCu2O3       P1          R2SCAN    -8.496  0.000     0.047    
+mp-771359-R2SCANCu2O3       Ia-3        R2SCAN    -8.477  0.000     0.066    
+mp-1046820-GGACu2O3       Cmcm        GGA       -8.362  -3.514    0.181    
+mp-755928-GGACu2O3       P2_1/c      GGA       -8.169  -3.198    0.374    
+mp-1022728-GGACu3O2       I4/mmm      GGA       -9.360  -4.593    0.160    
+mp-1178476-R2SCANCu3O4       Ibam        R2SCAN    -8.673  0.000     0.054    
+mp-1147673-GGACu3O4       Fm-3m       GGA       -8.661  -3.671    0.066    
+mp-1478-R2SCANCu4O3       I4_1/amd    R2SCAN    -9.416  0.000     0.009    
+mp-1023130-GGACu4O3       P4/nmm      GGA       -9.317  -4.442    0.109    
+mp-1045868-GGACu5O7       Cmcm        GGA       -8.479  -3.606    0.172    
+mp-1213626-GGACu64O       Amm2        GGA       -10.764 -6.664    0.032    
+mp-1207322-GGACu6O        Cmmm        GGA       -8.911  -5.975    1.462    
+mp-31217-GGACu8O        Cmmm        GGA       -10.361 -6.146    0.118    
+mp-704745-GGACu8O        Amm2        GGA       -10.293 -6.146    0.185    
+mp-760084-GGACu8O7       Cm          GGA       -9.248  -4.241    0.052    
+mp-32905-GGACu8O7       C2          GGA       -9.233  -4.241    0.066    
+mp-1147761-GGACu8O7       Fm-3m       GGA       -9.087  -4.241    0.212    
+mp-1045694-GGACu9O13      C2/m        GGA       -8.425  -3.564    0.177    
+mp-1692-R2SCANCuO         C2/c        R2SCAN    -9.189  0.000     0.000    
+mp-704645-GGACuO         C2/c        GGA       -9.188  -4.066    0.000    
+mp-1064456-GGACuO         Cccm        GGA       -9.188  -4.066    0.001    
+mp-510752-GGACuO         Pnma        GGA       -9.036  -4.066    0.153    
+mp-14549-GGACuO         Fm-3m       GGA       -9.018  -4.066    0.171    
+mp-510751-GGACuO         P4_2/nmc    GGA       -9.009  -4.066    0.180    
+mp-1147768-GGACuO         P4/mmm      GGA       -8.911  -4.066    0.278    
+mp-1120722-GGACuO         Pm-3m       GGA       -8.853  -4.066    0.335    
+mp-25229-GGACuO         I4/mmm      GGA       -8.599  -4.066    0.589    
+mp-25378-GGACuO2        R-3m        GGA       -7.948  -3.212    0.164    
+mp-504100-GGACuO2        Fd-3m       GGA       -7.938  -3.212    0.175    
+mp-1181499-GGACuO2        Cmcm        GGA       -7.917  -3.212    0.196    
+mp-601195-GGACuO2        Cmcm        GGA       -7.837  -3.212    0.275    
+mp-600604-GGACuO2        Fmmm        GGA       -7.834  -3.212    0.279    
+mp-614565-GGACuO2        Fmmm        GGA       -7.827  -3.212    0.285    
+mp-654801-GGACuO2        P1          GGA       -7.819  -3.212    0.294    
+mp-705439-GGACuO2        Pmmm        GGA       -6.796  -2.861    1.317    
+mp-611836-R2SCANO2          C2/m        R2SCAN    -5.961  0.000     0.000    
+mp-610917-R2SCANO2          R-3m        R2SCAN    -5.955  0.000     0.005    
+mp-723285-R2SCANO2          P4_12_12    R2SCAN    -5.955  0.000     0.006    
+mp-1087546-GGAO2          C2/c        GGA       -5.944  -1.014    0.017    
+mp-1180036-GGAO2          P2/c        GGA       -5.932  -1.014    0.029    
+mp-607540-GGAO2          Fmmm        GGA       -5.841  -1.014    0.120    
+mp-1066100-R2SCANO2          P6_3/mmc    R2SCAN    -5.692  0.000     0.269    
+mp-1180064-GGAO2          P1          GGA       -5.575  -1.014    0.386    
+mp-560602-GGAO2          Pbca        GGA       -5.551  -1.014    0.410    
+mp-1180008-GGAO2          P1          GGA       -5.542  -1.014    0.419    
+mp-734188-GGAO2          P4_1        GGA       -5.527  -1.014    0.433    
+mp-2421172-GGAO2          R3c         GGA       -5.046  -1.014    0.915    
+mp-1056831-GGAO2          P2/m        GGA       -4.651  -1.014    1.310    
+mp-1056059-GGAO2          P4/mmm      GGA       -4.404  -1.014    1.556    
+mp-1058623-GGAO2          Cmcm        GGA       -4.391  -1.014    1.569    
+mp-1057818-GGAO2          Fd-3m       GGA       -4.081  -1.014    1.880    
+CuO fraction = 1.00
+Processing 47 GGA(+U) and 10 R2SCAN entries...
+  Processed 47 compatible GGA(+U) entries with MaterialsProject2020Compatibility
+  Entries belong to the {'Zn', 'O'} chemical system
+  Generating mixing state data from provided entries.
+  Entries contain R2SCAN calculations for 3 of 3 GGA(+U) hull entries.
+  GGA(+U) energies will be adjusted to the R2SCAN scale
+  The energy above hull for R2SCAN materials at compositions with R2SCAN hull entries will be preserved. For other compositions, Energies of R2SCAN materials will be set equal to those of matching GGA(+U) materials
+  Discarding GGA entry mp-79-GGA for Zn2 because it is a GGA(+U) ground state that matches a R2SCAN material.
+  Discarding GGA entry mp-723285-GGA for O8 because it is a GGA(+U) ground state that matches a R2SCAN material.
+  Discarding GGA entry mp-1187812-GGA for Zn3 because there is a matching R2SCAN material.
+  Discarding GGA entry mp-2133-GGA for Zn2 O2 because it is a GGA(+U) ground state that matches a R2SCAN material.
+  Discarding GGA entry mp-1093993-GGA for Zn4 O4 because there is a matching R2SCAN material.
+  Discarding GGA entry mp-610917-GGA for O2 because there is a matching R2SCAN material.
+  Discarding GGA entry mp-1009490-GGA for O2 because there is a matching R2SCAN material.
+  Discarding GGA entry mp-1066100-GGA for O4 because there is a matching R2SCAN material.
+  Discarding GGA entry mp-1986-GGA for Zn1 O1 because there is a matching R2SCAN material.
+
+Processing complete. Mixed entries contain 33 GGA(+U) and 9 R2SCAN entries.
+
+entry_id    formula     spacegroup  run_type  eV/atom corr/atom e_above_hull
+mp-611836-R2SCANO2          C2/m        R2SCAN    -5.961  0.000     0.000    
+mp-610917-R2SCANO2          R-3m        R2SCAN    -5.955  0.000     0.005    
+mp-723285-R2SCANO2          P4_12_12    R2SCAN    -5.955  0.000     0.006    
+mp-1087546-GGAO2          C2/c        GGA       -5.944  -1.014    0.017    
+mp-1180036-GGAO2          P2/c        GGA       -5.932  -1.014    0.029    
+mp-607540-GGAO2          Fmmm        GGA       -5.841  -1.014    0.120    
+mp-1066100-R2SCANO2          P6_3/mmc    R2SCAN    -5.692  0.000     0.269    
+mp-1180064-GGAO2          P1          GGA       -5.575  -1.014    0.386    
+mp-560602-GGAO2          Pbca        GGA       -5.551  -1.014    0.410    
+mp-1180008-GGAO2          P1          GGA       -5.542  -1.014    0.419    
+mp-734188-GGAO2          P4_1        GGA       -5.527  -1.014    0.433    
+mp-2421172-GGAO2          R3c         GGA       -5.046  -1.014    0.915    
+mp-1056831-GGAO2          P2/m        GGA       -4.651  -1.014    1.310    
+mp-1056059-GGAO2          P4/mmm      GGA       -4.404  -1.014    1.556    
+mp-1058623-GGAO2          Cmcm        GGA       -4.391  -1.014    1.569    
+mp-1057818-GGAO2          Fd-3m       GGA       -4.081  -1.014    1.880    
+mp-79-R2SCANZn          P6_3/mmc    R2SCAN    -8.911  0.000     0.000    
+mp-2646972-GGAZn          Fm-3m       GGA       -8.905  -7.651    0.005    
+mp-1187812-R2SCANZn          C2/m        R2SCAN    -8.903  0.000     0.007    
+mp-1245184-GGAZn          P1          GGA       -8.862  -7.651    0.049    
+mp-1245266-GGAZn          P1          GGA       -8.858  -7.651    0.052    
+mp-1245093-GGAZn          P1          GGA       -8.856  -7.651    0.055    
+mp-1244987-GGAZn          P1          GGA       -8.852  -7.651    0.058    
+mp-2647117-GGAZn          Im-3m       GGA       -8.839  -7.651    0.072    
+mp-2133-R2SCANZnO         P6_3mc      R2SCAN    -9.083  0.000     0.000    
+mp-1986-R2SCANZnO         F-43m       R2SCAN    -9.075  0.000     0.008    
+mp-1093993-R2SCANZnO         P4_2/mnm    R2SCAN    -9.050  0.000     0.033    
+mp-2229-GGA ZnO         Fm-3m       GGA       -8.936  -4.532    0.147    
+mp-997630-GGAZnO         P6_3/mmc    GGA       -8.910  -4.532    0.173    
+mp-2346983-GGAZnO         P6_3/mmc    GGA       -8.859  -4.532    0.224    
+mp-1245209-GGAZnO         P1          GGA       -8.838  -4.532    0.245    
+mp-1245109-GGAZnO         P1          GGA       -8.836  -4.532    0.247    
+mp-1245015-GGAZnO         P1          GGA       -8.834  -4.532    0.249    
+mp-1017539-GGAZnO         P6_3mc      GGA       -8.783  -4.532    0.300    
+mp-1245255-GGAZnO         P1          GGA       -8.695  -4.421    0.388    
+mp-13161-GGAZnO         Pm-3m       GGA       -8.366  -4.532    0.717    
+mp-8484-GGA ZnO2        Pa-3        GGA       -7.907  -3.440    0.135    
+mp-1102744-GGAZnO2        P2_12_12_1  GGA       -7.875  -3.440    0.167    
+mp-1094003-GGAZnO2        P-3m1       GGA       -7.583  -3.588    0.459    
+mp-1178720-GGAZnO2        P2_1        GGA       -7.582  -3.238    0.460    
+mp-1237278-GGAZnO2        P2_12_12_1  GGA       -7.576  -3.588    0.466    
+mp-1178680-GGAZnO2        Immm        GGA       -7.231  -3.238    0.811    
+ZnO fraction = 1.00
+
+
+##### FINAL AO FRACTIONS #####
+
+
+{'Mg': 1.0, 'Ca': 1.0, 'Sc': 0.0, 'Ti': 0.0749, 'V': 0.0, 'Mn': 0.3931, 'Fe': 0.0914, 'Co': 0.3923, 'Ni': 0.993, 'Cu': 1.0, 'Zn': 1.0}
