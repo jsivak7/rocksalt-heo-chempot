@@ -2,6 +2,7 @@
 .DS_Store
 **/POTCAR
 /docs
+/old
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
